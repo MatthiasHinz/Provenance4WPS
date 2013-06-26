@@ -1,0 +1,240 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+<groupId>wps.provenance</groupId>
+	<artifactId>WPS-OPM_Provenance</artifactId>
+	<name>A Provenance recording tool for WPS</name>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<description></description>
+	
+	<developers>
+
+		<developer>
+			<id>Hinz</id>
+			<name>Matthias Hinz</name>
+			<organization>University of Münster</organization>
+			<email>matthias.hinz@uni-muenster.de</email>
+		</developer>
+
+	</developers>
+
+
+	
+
+	<repositories>
+		<repository>
+			<id>n52-snapshots</id>
+			<name>n52-snapshots</name>
+			<url>http://52north.org/maven/repo/snapshots/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>osgeo</id>
+			<name>Open Source Geospatial Foundation Repository</name>
+			<url>http://download.osgeo.org/webdav/geotools/</url>
+		</repository>
+		<repository>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<id>opengeo</id>
+			<name>OpenGeo Maven Repository</name>
+			<url>http://repo.opengeo.org</url>
+		</repository>
+
+		<repository>
+			<id>n52-releases</id>
+			<name>n52-snapshots</name>
+			<url>http://52north.org/maven/repo/releases/</url>
+		</repository>
+
+		<repository>
+			<id>maven2-repository.dev.java.net</id>
+			<name>Java.net Maven 2 Repository</name>
+			<url>http://download.java.net/maven/2</url>
+		</repository>
+		<repository>
+			<id>opm</id>
+			<name>OPM releases Repository</name>
+			<url>http://openprovenance.org/java/maven-releases/</url>
+		</repository>
+		<repository>
+			<id>opm-snaphsot</id>
+			<name>OPM snapshot Repository</name>
+			<url>http://openprovenance.org/java/maven-snapshots/</url>
+		</repository>
+		<repository>
+			<id>java.net</id>
+			<name>java.net Maven Repository</name>
+			<url>http://org.openprovenance</url>
+			<layout>legacy</layout>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.openprovenance</groupId>
+			<artifactId>opm-core</artifactId>
+			<version>${opm.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jvnet.jaxb2_commons</groupId>
+			<artifactId>runtime</artifactId>
+			<version>${jaxb.common.version}</version>
+		</dependency>
+
+
+
+		<!-- add this dependency if you want opm conversion to/from rdf -->
+		<dependency>
+			<groupId>org.openprovenance</groupId>
+			<artifactId>opm-elmo</artifactId>
+			<version>${opm.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.2</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.n52.wps</groupId>
+			<artifactId>52n-wps-xml</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.n52.wps</groupId>
+			<artifactId>52n-wps-client-lib</artifactId>
+			<version>3.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.xmlbeans</groupId>
+			<artifactId>xmlbeans</artifactId>
+			<version>2.4.0</version>
+		</dependency>
+
+
+
+	</dependencies>
+
+	<build>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.6.1</version>
+			</plugin>
+		</plugins>
+
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>1.5</source>
+						<target>1.5</target>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	<properties>
+		<opm.version>1.1.7</opm.version>
+
+		<!-- jaxb -->
+		<jaxb.impl.version>2.1.12</jaxb.impl.version>
+		<jaxb.api.version>2.1</jaxb.api.version>
+		<jaxb.xjc.version>2.1.12</jaxb.xjc.version>
+		<jaxb.common.version>0.4.1.5</jaxb.common.version>
+		<hyperjaxb.version>0.5.0</hyperjaxb.version>
+		<maven.jaxb.plugin.version>0.6.0</maven.jaxb.plugin.version>
+
+
+	</properties>
+
+
+	<reporting>
+		<plugins>
+			<plugin>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.6.1</version>
+				<configuration>
+
+					<aggregate>true</aggregate>
+
+					<groups>
+						<group>
+							<title>OPM Packages</title>
+							<packages>org.openprovenance.*</packages>
+						</group>
+					</groups>
+
+
+
+					<links>
+						<link>http://java.sun.com/j2se/1.5.0/docs/api/</link>
+						<link>http://java.sun.com/products/servlet/2.3/javadoc/</link>
+						<link>http://www.oracle.com/technology/documentation/berkeley-db/je/java/</link>
+						<link>http://prefuse.org/doc/api/</link>
+						<link>http://ws.apache.org/axis/java/apiDocs/</link>
+						<link>http://jakarta.apache.org/commons/collections/api-3.2/</link>
+						<link>http://jakarta.apache.org/commons/io/api-1.2/</link>
+						<link>http://jakarta.apache.org/commons/lang/api-2.1/</link>
+						<link>http://jakarta.apache.org/commons/logging/commons-logging-1.0.4/docs/apidocs/</link>
+						<link>http://jakarta.apache.org/commons/pool/apidocs/</link>
+						<link>http://xerces.apache.org/xerces-j/apiDocs/</link>
+						<link>http://junit.sourceforge.net/javadoc/</link>
+						<link>http://aopalliance.sourceforge.net/doc/</link>
+						<link>http://openprovenance.org/java/site/1_1/apidocs/index.html</link>
+					</links>
+				</configuration>
+			</plugin>
+
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-checkstyle-plugin</artifactId>
+			</plugin>
+
+
+			<!-- not supported by git <plugin> <groupId>org.apache.maven.plugins</groupId> 
+				<artifactId>maven-changelog-plugin</artifactId> </plugin> -->
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>jxr-maven-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<configuration>
+					<linkXref>true</linkXref>
+					<sourceEncoding>utf-8</sourceEncoding>
+					<minimumTokens>100</minimumTokens>
+					<targetJdk>1.5</targetJdk>
+				</configuration>
+			</plugin>
+		</plugins>
+	</reporting>
+
+
+
+</project>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opm:opmGraph xmlns:opm="http://openprovenance.org/model/v1.1.a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://example.com/">
+    <opm:accounts>
+        <opm:account id="processExecution"/>
+    </opm:accounts>
+    <opm:processes>
+        <opm:process id="org.n52.wps.server.r.Idw-0ceaac">
+            <opm:account ref="processExecution"/>
+            <opm:label value="org.n52.wps.server.r.Idw"/>
+            <opm:annotation xsi:type="opm:Annotation" id="f8e2be">
+                <opm:property uri="http://purl.org/dc/terms/title">
+                    <opm:value xsi:type="xsd:string">Inverse Distance Interpolation in R</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>org.n52.wps.server.r.Idw-0ceaac</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="f8e2be">
+                <opm:property uri="http://purl.org/dc/terms/description">
+                    <opm:value xsi:type="xsd:string">Calculates Inverse Distance Interpolation for given point values on a specified grid</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>org.n52.wps.server.r.Idw-0ceaac</opm:localSubject>
+            </opm:annotation>
+        </opm:process>
+    </opm:processes>
+    <opm:artifacts>
+        <opm:artifact id="points-a61fb7">
+            <opm:account ref="processExecution"/>
+            <opm:label value="points"/>
+            <opm:annotation xsi:type="opm:Annotation" id="bc1890">
+                <opm:property uri="http://purl.org/dc/terms/title">
+                    <opm:value xsi:type="xsd:string">points</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>points-a61fb7</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="bc1890">
+                <opm:property uri="http://openprovenance.org/model/opmo#type">
+                    <opm:value xsi:type="xsd:string">application/x-zipped-shp</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>points-a61fb7</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="bc1890">
+                <opm:property uri="href">
+                    <opm:value xsi:type="xsd:string">http://localhost:8080/usecase1/meuse.zip</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>points-a61fb7</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="bc1890">
+                <opm:property uri="http://purl.org/dc/terms/description">
+                    <opm:value xsi:type="xsd:string">Points for IDW</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>points-a61fb7</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="bc1890">
+                <opm:property uri="http://openprovenance.org/model/opmo#encoding">
+                    <opm:value xsi:type="xsd:string">base64</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>points-a61fb7</opm:localSubject>
+            </opm:annotation>
+        </opm:artifact>
+        <opm:artifact id="nmax-bcd0eb">
+            <opm:account ref="processExecution"/>
+            <opm:label value="nmax"/>
+            <opm:annotation xsi:type="opm:Annotation" id="4dcb4e">
+                <opm:property uri="http://purl.org/dc/terms/title">
+                    <opm:value xsi:type="xsd:string">nmax</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>nmax-bcd0eb</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="4dcb4e">
+                <opm:property uri="http://purl.org/dc/terms/description">
+                    <opm:value xsi:type="xsd:string">Maximum number of nearest observations that should be used for prediction</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>nmax-bcd0eb</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="4dcb4e">
+                <opm:property uri="http://openprovenance.org/model/opmo#avalue">
+                    <opm:value xsi:type="xsd:string">10</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>nmax-bcd0eb</opm:localSubject>
+            </opm:annotation>
+        </opm:artifact>
+        <opm:artifact id="attributename-ef30bd">
+            <opm:account ref="processExecution"/>
+            <opm:label value="attributename"/>
+            <opm:annotation xsi:type="opm:Annotation" id="df7af6">
+                <opm:property uri="http://purl.org/dc/terms/title">
+                    <opm:value xsi:type="xsd:string">attributename</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>attributename-ef30bd</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="df7af6">
+                <opm:property uri="http://openprovenance.org/model/opmo#avalue">
+                    <opm:value xsi:type="xsd:string">zinc</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>attributename-ef30bd</opm:localSubject>
+            </opm:annotation>
+        </opm:artifact>
+        <opm:artifact id="maxdist-05dd0c">
+            <opm:account ref="processExecution"/>
+            <opm:label value="maxdist"/>
+            <opm:annotation xsi:type="opm:Annotation" id="0d667b">
+                <opm:property uri="http://purl.org/dc/terms/title">
+                    <opm:value xsi:type="xsd:string">maxdist</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>maxdist-05dd0c</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="0d667b">
+                <opm:property uri="http://purl.org/dc/terms/description">
+                    <opm:value xsi:type="xsd:string">Only observations within a distance of maxdist from the prediction location are used for prediction</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>maxdist-05dd0c</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="0d667b">
+                <opm:property uri="http://openprovenance.org/model/opmo#avalue">
+                    <opm:value xsi:type="xsd:string">1000</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>maxdist-05dd0c</opm:localSubject>
+            </opm:annotation>
+        </opm:artifact>
+        <opm:artifact id="raster-6ac7be">
+            <opm:account ref="processExecution"/>
+            <opm:label value="raster"/>
+            <opm:annotation xsi:type="opm:Annotation" id="891b1e">
+                <opm:property uri="http://purl.org/dc/terms/title">
+                    <opm:value xsi:type="xsd:string">raster</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>raster-6ac7be</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="891b1e">
+                <opm:property uri="http://openprovenance.org/model/opmo#type">
+                    <opm:value xsi:type="xsd:string">application/img</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>raster-6ac7be</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="891b1e">
+                <opm:property uri="href">
+                    <opm:value xsi:type="xsd:string">http://localhost:8080/usecase1/meuse.grid.img</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>raster-6ac7be</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="891b1e">
+                <opm:property uri="http://purl.org/dc/terms/description">
+                    <opm:value xsi:type="xsd:string">Raster defining the output space</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>raster-6ac7be</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="891b1e">
+                <opm:property uri="http://openprovenance.org/model/opmo#encoding">
+                    <opm:value xsi:type="xsd:string">base64</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>raster-6ac7be</opm:localSubject>
+            </opm:annotation>
+        </opm:artifact>
+        <opm:artifact id="result-986737">
+            <opm:account ref="processExecution"/>
+            <opm:label value="result"/>
+            <opm:annotation xsi:type="opm:Annotation" id="38f470">
+                <opm:property uri="http://purl.org/dc/terms/title">
+                    <opm:value xsi:type="xsd:string">result</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>result-986737</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="38f470">
+                <opm:property uri="http://openprovenance.org/model/opmo#type">
+                    <opm:value xsi:type="xsd:string">application/img</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>result-986737</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="38f470">
+                <opm:property uri="http://purl.org/dc/terms/description">
+                    <opm:value xsi:type="xsd:string">Raster defining the output space</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>result-986737</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="38f470">
+                <opm:property uri="http://openprovenance.org/model/opmo#encoding">
+                    <opm:value xsi:type="xsd:string">base64</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>result-986737</opm:localSubject>
+            </opm:annotation>
+        </opm:artifact>
+    </opm:artifacts>
+    <opm:agents>
+        <opm:agent id="a11ee9">
+            <opm:account ref="processExecution"/>
+            <opm:label value="WPS"/>
+            <opm:annotation id="a11ee9-properties">
+                <opm:property uri="service">
+                    <opm:value xsi:type="xsd:string">WPS 1.0.0</opm:value>
+                </opm:property>
+                <opm:property uri="href">
+                    <opm:value xsi:type="xsd:string">http://localhost:8080/wps/WebProcessingService</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+            </opm:annotation>
+        </opm:agent>
+    </opm:agents>
+    <opm:causalDependencies>
+        <opm:used id="8f6c27">
+            <opm:effect ref="org.n52.wps.server.r.Idw-0ceaac"/>
+            <opm:role value="wps input"/>
+            <opm:cause ref="points-a61fb7"/>
+            <opm:account ref="processExecution"/>
+        </opm:used>
+        <opm:used id="d7c061">
+            <opm:effect ref="org.n52.wps.server.r.Idw-0ceaac"/>
+            <opm:role value="wps input"/>
+            <opm:cause ref="nmax-bcd0eb"/>
+            <opm:account ref="processExecution"/>
+        </opm:used>
+        <opm:used id="3b5f02">
+            <opm:effect ref="org.n52.wps.server.r.Idw-0ceaac"/>
+            <opm:role value="wps input"/>
+            <opm:cause ref="attributename-ef30bd"/>
+            <opm:account ref="processExecution"/>
+        </opm:used>
+        <opm:used id="ccb41b">
+            <opm:effect ref="org.n52.wps.server.r.Idw-0ceaac"/>
+            <opm:role value="wps input"/>
+            <opm:cause ref="maxdist-05dd0c"/>
+            <opm:account ref="processExecution"/>
+        </opm:used>
+        <opm:used id="503c6e">
+            <opm:effect ref="org.n52.wps.server.r.Idw-0ceaac"/>
+            <opm:role value="wps input"/>
+            <opm:cause ref="raster-6ac7be"/>
+            <opm:account ref="processExecution"/>
+        </opm:used>
+        <opm:wasGeneratedBy id="6f0a13">
+            <opm:effect ref="result-986737"/>
+            <opm:role value="wps output"/>
+            <opm:cause ref="org.n52.wps.server.r.Idw-0ceaac"/>
+            <opm:account ref="processExecution"/>
+        </opm:wasGeneratedBy>
+        <opm:wasControlledBy>
+            <opm:effect ref="org.n52.wps.server.r.Idw-0ceaac"/>
+            <opm:role value="Service"/>
+            <opm:cause ref="a11ee9"/>
+            <opm:account ref="processExecution"/>
+        </opm:wasControlledBy>
+    </opm:causalDependencies>
+    <opm:annotations>
+        <opm:annotation id="f8e2be">
+            <opm:property uri="http://purl.org/dc/terms/title">
+                <opm:value xsi:type="xsd:string">Inverse Distance Interpolation in R</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>org.n52.wps.server.r.Idw-0ceaac</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="f8e2be">
+            <opm:property uri="http://purl.org/dc/terms/description">
+                <opm:value xsi:type="xsd:string">Calculates Inverse Distance Interpolation for given point values on a specified grid</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>org.n52.wps.server.r.Idw-0ceaac</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="bc1890">
+            <opm:property uri="http://purl.org/dc/terms/title">
+                <opm:value xsi:type="xsd:string">points</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>points-a61fb7</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="bc1890">
+            <opm:property uri="http://openprovenance.org/model/opmo#type">
+                <opm:value xsi:type="xsd:string">application/x-zipped-shp</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>points-a61fb7</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="bc1890">
+            <opm:property uri="href">
+                <opm:value xsi:type="xsd:string">http://localhost:8080/usecase1/meuse.zip</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>points-a61fb7</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="bc1890">
+            <opm:property uri="http://purl.org/dc/terms/description">
+                <opm:value xsi:type="xsd:string">Points for IDW</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>points-a61fb7</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="bc1890">
+            <opm:property uri="http://openprovenance.org/model/opmo#encoding">
+                <opm:value xsi:type="xsd:string">base64</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>points-a61fb7</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="4dcb4e">
+            <opm:property uri="http://purl.org/dc/terms/title">
+                <opm:value xsi:type="xsd:string">nmax</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>nmax-bcd0eb</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="4dcb4e">
+            <opm:property uri="http://purl.org/dc/terms/description">
+                <opm:value xsi:type="xsd:string">Maximum number of nearest observations that should be used for prediction</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>nmax-bcd0eb</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="4dcb4e">
+            <opm:property uri="http://openprovenance.org/model/opmo#avalue">
+                <opm:value xsi:type="xsd:string">10</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>nmax-bcd0eb</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="df7af6">
+            <opm:property uri="http://purl.org/dc/terms/title">
+                <opm:value xsi:type="xsd:string">attributename</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>attributename-ef30bd</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="df7af6">
+            <opm:property uri="http://openprovenance.org/model/opmo#avalue">
+                <opm:value xsi:type="xsd:string">zinc</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>attributename-ef30bd</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="0d667b">
+            <opm:property uri="http://purl.org/dc/terms/title">
+                <opm:value xsi:type="xsd:string">maxdist</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>maxdist-05dd0c</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="0d667b">
+            <opm:property uri="http://purl.org/dc/terms/description">
+                <opm:value xsi:type="xsd:string">Only observations within a distance of maxdist from the prediction location are used for prediction</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>maxdist-05dd0c</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="0d667b">
+            <opm:property uri="http://openprovenance.org/model/opmo#avalue">
+                <opm:value xsi:type="xsd:string">1000</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>maxdist-05dd0c</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="891b1e">
+            <opm:property uri="http://purl.org/dc/terms/title">
+                <opm:value xsi:type="xsd:string">raster</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>raster-6ac7be</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="891b1e">
+            <opm:property uri="http://openprovenance.org/model/opmo#type">
+                <opm:value xsi:type="xsd:string">application/img</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>raster-6ac7be</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="891b1e">
+            <opm:property uri="href">
+                <opm:value xsi:type="xsd:string">http://localhost:8080/usecase1/meuse.grid.img</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>raster-6ac7be</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="891b1e">
+            <opm:property uri="http://purl.org/dc/terms/description">
+                <opm:value xsi:type="xsd:string">Raster defining the output space</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>raster-6ac7be</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="891b1e">
+            <opm:property uri="http://openprovenance.org/model/opmo#encoding">
+                <opm:value xsi:type="xsd:string">base64</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>raster-6ac7be</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="38f470">
+            <opm:property uri="http://purl.org/dc/terms/title">
+                <opm:value xsi:type="xsd:string">result</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>result-986737</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="38f470">
+            <opm:property uri="http://openprovenance.org/model/opmo#type">
+                <opm:value xsi:type="xsd:string">application/img</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>result-986737</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="38f470">
+            <opm:property uri="http://purl.org/dc/terms/description">
+                <opm:value xsi:type="xsd:string">Raster defining the output space</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>result-986737</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="38f470">
+            <opm:property uri="http://openprovenance.org/model/opmo#encoding">
+                <opm:value xsi:type="xsd:string">base64</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>result-986737</opm:localSubject>
+        </opm:annotation>
+    </opm:annotations>
+</opm:opmGraph>

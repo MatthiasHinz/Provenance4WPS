@@ -1,0 +1,55 @@
+digraph OPMGraph { rankdir="BT"; 
+"org.n52.wps.server.r.Make_Realizations-783214" [label="org.n52.wps.server.r.Make_Realizations",shape="polygon",sides="4"]
+"uspdf-c2fd51" [label="uspdf"]
+"eid4" [color="gray",fontcolor="black",label=<<TABLE cellpadding="0" border="0">
+	<TR>
+	    <TD align="left">type:</TD>
+	    <TD align="left">application/geotiff</TD>
+	</TR>
+	<TR>
+	    <TD align="left">href:</TD>
+	    <TD align="left">SECOND LAYER URL</TD>
+	</TR>
+    </TABLE>>
+,shape="note"]
+"eid4" -> "uspdf-c2fd51" [style="dashed",color="gray",arrowhead="none"]
+"spdf-7ab277" [label="spdf"]
+"eid5" [color="gray",fontcolor="black",label=<<TABLE cellpadding="0" border="0">
+	<TR>
+	    <TD align="left">type:</TD>
+	    <TD align="left">application/geotiff</TD>
+	</TR>
+	<TR>
+	    <TD align="left">href:</TD>
+	    <TD align="left">FIRST LAYER URL</TD>
+	</TR>
+    </TABLE>>
+,shape="note"]
+"eid5" -> "spdf-7ab277" [style="dashed",color="gray",arrowhead="none"]
+"output-6fc71c" [label="output"]
+"eid6" [color="gray",fontcolor="black",label=<<TABLE cellpadding="0" border="0">
+	<TR>
+	    <TD align="left">type:</TD>
+	    <TD align="left">application/geotiff</TD>
+	</TR>
+    </TABLE>>
+,shape="note"]
+"eid6" -> "output-6fc71c" [style="dashed",color="gray",arrowhead="none"]
+"a1e339" [label="WPS",shape="polygon",sides="8"]
+"eid7" [color="gray",fontcolor="black",label=<<TABLE cellpadding="0" border="0">
+	<TR>
+	    <TD align="left">service:</TD>
+	    <TD align="left">WPS 1.0.0</TD>
+	</TR>
+	<TR>
+	    <TD align="left">href:</TD>
+	    <TD align="left">http://localhost:8080/wps/WebProcessingService</TD>
+	</TR>
+    </TABLE>>
+,shape="note"]
+"eid7" -> "a1e339" [style="dashed",color="gray",arrowhead="none"]
+"org.n52.wps.server.r.Make_Realizations-783214" -> "uspdf-c2fd51" [style="dotted",color="black",label="(wps input)",fontcolor="black",fontsize="8"]
+"org.n52.wps.server.r.Make_Realizations-783214" -> "spdf-7ab277" [style="dotted",color="black",label="(wps input)",fontcolor="black",fontsize="8"]
+"output-6fc71c" -> "org.n52.wps.server.r.Make_Realizations-783214" [style="dotted",color="black",label="(wps output)",fontcolor="black",fontsize="8"]
+"org.n52.wps.server.r.Make_Realizations-783214" -> "a1e339" [style="dotted",color="black",label="(Service)",fontcolor="black",fontsize="8"]
+}

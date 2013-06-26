@@ -1,0 +1,17 @@
+digraph OPMGraph { rankdir="BT"; 
+"org.n52.wps.server.r.Idw-48cbd9" [label="org.n52.wps.server.r.Idw",shape="polygon",sides="4"]
+"points-869cbf" [label="points"]
+"nmax-238502" [label="nmax"]
+"maxdist-2b94e7" [label="maxdist"]
+"attributename-835bc1" [label="attributename"]
+"raster-d2ffbc" [label="raster"]
+"result-b3ca5b" [label="result"]
+"552172" [label="WPS",shape="polygon",sides="8"]
+"org.n52.wps.server.r.Idw-48cbd9" -> "points-869cbf" [style="dotted",color="black",label="(wps input)",fontcolor="black",fontsize="8"]
+"org.n52.wps.server.r.Idw-48cbd9" -> "nmax-238502" [style="dotted",color="black",label="(wps input)",fontcolor="black",fontsize="8"]
+"org.n52.wps.server.r.Idw-48cbd9" -> "maxdist-2b94e7" [style="dotted",color="black",label="(wps input)",fontcolor="black",fontsize="8"]
+"org.n52.wps.server.r.Idw-48cbd9" -> "attributename-835bc1" [style="dotted",color="black",label="(wps input)",fontcolor="black",fontsize="8"]
+"org.n52.wps.server.r.Idw-48cbd9" -> "raster-d2ffbc" [style="dotted",color="black",label="(wps input)",fontcolor="black",fontsize="8"]
+"result-b3ca5b" -> "org.n52.wps.server.r.Idw-48cbd9" [style="dotted",color="black",label="(wps output)",fontcolor="black",fontsize="8"]
+"org.n52.wps.server.r.Idw-48cbd9" -> "552172" [style="dotted",color="black",label="(Service)",fontcolor="black",fontsize="8"]
+}

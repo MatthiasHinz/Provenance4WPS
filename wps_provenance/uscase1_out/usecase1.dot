@@ -1,0 +1,153 @@
+digraph OPMGraph { rankdir="BT"; 
+"org.n52.wps.server.r.Idw-0ceaac" [label="org.n52.wps.server.r.Idw",shape="polygon",sides="4"]
+"eid8" [color="gray",fontcolor="black",label=<<TABLE cellpadding="0" border="0">
+	<TR>
+	    <TD align="left">title:</TD>
+	    <TD align="left">Inverse Distance Interpolation in R</TD>
+	</TR>
+	<TR>
+	    <TD align="left">description:</TD>
+	    <TD align="left">Calculates Inverse Distance Interpolation for given point values on a specified grid</TD>
+	</TR>
+    </TABLE>>
+,shape="note"]
+"eid8" -> "org.n52.wps.server.r.Idw-0ceaac" [style="dashed",color="gray",arrowhead="none"]
+"points-a61fb7" [label="points"]
+"eid9" [color="gray",fontcolor="black",label=<<TABLE cellpadding="0" border="0">
+	<TR>
+	    <TD align="left">title:</TD>
+	    <TD align="left">points</TD>
+	</TR>
+	<TR>
+	    <TD align="left">type:</TD>
+	    <TD align="left">application/x-zipped-shp</TD>
+	</TR>
+	<TR>
+	    <TD align="left">href:</TD>
+	    <TD align="left">http://localhost:8080/usecase1/meuse.zip</TD>
+	</TR>
+	<TR>
+	    <TD align="left">description:</TD>
+	    <TD align="left">Points for IDW</TD>
+	</TR>
+	<TR>
+	    <TD align="left">encoding:</TD>
+	    <TD align="left">base64</TD>
+	</TR>
+    </TABLE>>
+,shape="note"]
+"eid9" -> "points-a61fb7" [style="dashed",color="gray",arrowhead="none"]
+"nmax-bcd0eb" [label="nmax"]
+"eid10" [color="gray",fontcolor="black",label=<<TABLE cellpadding="0" border="0">
+	<TR>
+	    <TD align="left">title:</TD>
+	    <TD align="left">nmax</TD>
+	</TR>
+	<TR>
+	    <TD align="left">description:</TD>
+	    <TD align="left">Maximum number of nearest observations that should be used for prediction</TD>
+	</TR>
+	<TR>
+	    <TD align="left">avalue:</TD>
+	    <TD align="left">10</TD>
+	</TR>
+    </TABLE>>
+,shape="note"]
+"eid10" -> "nmax-bcd0eb" [style="dashed",color="gray",arrowhead="none"]
+"attributename-ef30bd" [label="attributename"]
+"eid11" [color="gray",fontcolor="black",label=<<TABLE cellpadding="0" border="0">
+	<TR>
+	    <TD align="left">title:</TD>
+	    <TD align="left">attributename</TD>
+	</TR>
+	<TR>
+	    <TD align="left">avalue:</TD>
+	    <TD align="left">zinc</TD>
+	</TR>
+    </TABLE>>
+,shape="note"]
+"eid11" -> "attributename-ef30bd" [style="dashed",color="gray",arrowhead="none"]
+"maxdist-05dd0c" [label="maxdist"]
+"eid12" [color="gray",fontcolor="black",label=<<TABLE cellpadding="0" border="0">
+	<TR>
+	    <TD align="left">title:</TD>
+	    <TD align="left">maxdist</TD>
+	</TR>
+	<TR>
+	    <TD align="left">description:</TD>
+	    <TD align="left">Only observations within a distance of maxdist from the prediction location are used for prediction</TD>
+	</TR>
+	<TR>
+	    <TD align="left">avalue:</TD>
+	    <TD align="left">1000</TD>
+	</TR>
+    </TABLE>>
+,shape="note"]
+"eid12" -> "maxdist-05dd0c" [style="dashed",color="gray",arrowhead="none"]
+"raster-6ac7be" [label="raster"]
+"eid13" [color="gray",fontcolor="black",label=<<TABLE cellpadding="0" border="0">
+	<TR>
+	    <TD align="left">title:</TD>
+	    <TD align="left">raster</TD>
+	</TR>
+	<TR>
+	    <TD align="left">type:</TD>
+	    <TD align="left">application/img</TD>
+	</TR>
+	<TR>
+	    <TD align="left">href:</TD>
+	    <TD align="left">http://localhost:8080/usecase1/meuse.grid.img</TD>
+	</TR>
+	<TR>
+	    <TD align="left">description:</TD>
+	    <TD align="left">Raster defining the output space</TD>
+	</TR>
+	<TR>
+	    <TD align="left">encoding:</TD>
+	    <TD align="left">base64</TD>
+	</TR>
+    </TABLE>>
+,shape="note"]
+"eid13" -> "raster-6ac7be" [style="dashed",color="gray",arrowhead="none"]
+"result-986737" [label="result"]
+"eid14" [color="gray",fontcolor="black",label=<<TABLE cellpadding="0" border="0">
+	<TR>
+	    <TD align="left">title:</TD>
+	    <TD align="left">result</TD>
+	</TR>
+	<TR>
+	    <TD align="left">type:</TD>
+	    <TD align="left">application/img</TD>
+	</TR>
+	<TR>
+	    <TD align="left">description:</TD>
+	    <TD align="left">Raster defining the output space</TD>
+	</TR>
+	<TR>
+	    <TD align="left">encoding:</TD>
+	    <TD align="left">base64</TD>
+	</TR>
+    </TABLE>>
+,shape="note"]
+"eid14" -> "result-986737" [style="dashed",color="gray",arrowhead="none"]
+"a11ee9" [label="WPS",shape="polygon",sides="8"]
+"eid15" [color="gray",fontcolor="black",label=<<TABLE cellpadding="0" border="0">
+	<TR>
+	    <TD align="left">service:</TD>
+	    <TD align="left">WPS 1.0.0</TD>
+	</TR>
+	<TR>
+	    <TD align="left">href:</TD>
+	    <TD align="left">http://localhost:8080/wps/WebProcessingService</TD>
+	</TR>
+    </TABLE>>
+,shape="note"]
+"eid15" -> "a11ee9" [style="dashed",color="gray",arrowhead="none"]
+"org.n52.wps.server.r.Idw-0ceaac" -> "points-a61fb7" [style="dotted",color="black",label="(wps input)",fontcolor="black",fontsize="8"]
+"org.n52.wps.server.r.Idw-0ceaac" -> "nmax-bcd0eb" [style="dotted",color="black",label="(wps input)",fontcolor="black",fontsize="8"]
+"org.n52.wps.server.r.Idw-0ceaac" -> "attributename-ef30bd" [style="dotted",color="black",label="(wps input)",fontcolor="black",fontsize="8"]
+"org.n52.wps.server.r.Idw-0ceaac" -> "maxdist-05dd0c" [style="dotted",color="black",label="(wps input)",fontcolor="black",fontsize="8"]
+"org.n52.wps.server.r.Idw-0ceaac" -> "raster-6ac7be" [style="dotted",color="black",label="(wps input)",fontcolor="black",fontsize="8"]
+"result-986737" -> "org.n52.wps.server.r.Idw-0ceaac" [style="dotted",color="black",label="(wps output)",fontcolor="black",fontsize="8"]
+"org.n52.wps.server.r.Idw-0ceaac" -> "a11ee9" [style="dotted",color="black",label="(Service)",fontcolor="black",fontsize="8"]
+}

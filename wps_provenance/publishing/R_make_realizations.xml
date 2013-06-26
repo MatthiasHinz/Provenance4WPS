@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opm:opmGraph xmlns:opm="http://openprovenance.org/model/v1.1.a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://example.com/">
+    <opm:accounts>
+        <opm:account id="processExecution"/>
+    </opm:accounts>
+    <opm:processes>
+        <opm:process id="org.n52.wps.server.r.Make_Realizations-783214">
+            <opm:account ref="processExecution"/>
+            <opm:label value="org.n52.wps.server.r.Make_Realizations"/>
+        </opm:process>
+    </opm:processes>
+    <opm:artifacts>
+        <opm:artifact id="uspdf-c2fd51">
+            <opm:account ref="processExecution"/>
+            <opm:label value="uspdf"/>
+            <opm:annotation xsi:type="opm:Annotation" id="9bf565">
+                <opm:property uri="http://openprovenance.org/model/opmo#type">
+                    <opm:value xsi:type="xsd:string">application/geotiff</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>uspdf-c2fd51</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="9bf565">
+                <opm:property uri="href">
+                    <opm:value xsi:type="xsd:string">SECOND LAYER URL</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>uspdf-c2fd51</opm:localSubject>
+            </opm:annotation>
+        </opm:artifact>
+        <opm:artifact id="spdf-7ab277">
+            <opm:account ref="processExecution"/>
+            <opm:label value="spdf"/>
+            <opm:annotation xsi:type="opm:Annotation" id="4bebeb">
+                <opm:property uri="http://openprovenance.org/model/opmo#type">
+                    <opm:value xsi:type="xsd:string">application/geotiff</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>spdf-7ab277</opm:localSubject>
+            </opm:annotation>
+            <opm:annotation xsi:type="opm:Annotation" id="4bebeb">
+                <opm:property uri="href">
+                    <opm:value xsi:type="xsd:string">FIRST LAYER URL</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>spdf-7ab277</opm:localSubject>
+            </opm:annotation>
+        </opm:artifact>
+        <opm:artifact id="output-6fc71c">
+            <opm:account ref="processExecution"/>
+            <opm:label value="output"/>
+            <opm:annotation xsi:type="opm:Annotation" id="c46cf6">
+                <opm:property uri="http://openprovenance.org/model/opmo#type">
+                    <opm:value xsi:type="xsd:string">application/geotiff</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+                <opm:localSubject>output-6fc71c</opm:localSubject>
+            </opm:annotation>
+        </opm:artifact>
+    </opm:artifacts>
+    <opm:agents>
+        <opm:agent id="a1e339">
+            <opm:account ref="processExecution"/>
+            <opm:label value="WPS"/>
+            <opm:annotation id="a1e339-properties">
+                <opm:property uri="service">
+                    <opm:value xsi:type="xsd:string">WPS 1.0.0</opm:value>
+                </opm:property>
+                <opm:property uri="href">
+                    <opm:value xsi:type="xsd:string">http://localhost:8080/wps/WebProcessingService</opm:value>
+                </opm:property>
+                <opm:account ref="processExecution"/>
+            </opm:annotation>
+        </opm:agent>
+    </opm:agents>
+    <opm:causalDependencies>
+        <opm:used id="d2967a">
+            <opm:effect ref="org.n52.wps.server.r.Make_Realizations-783214"/>
+            <opm:role value="wps input"/>
+            <opm:cause ref="uspdf-c2fd51"/>
+            <opm:account ref="processExecution"/>
+        </opm:used>
+        <opm:used id="d6da83">
+            <opm:effect ref="org.n52.wps.server.r.Make_Realizations-783214"/>
+            <opm:role value="wps input"/>
+            <opm:cause ref="spdf-7ab277"/>
+            <opm:account ref="processExecution"/>
+        </opm:used>
+        <opm:wasGeneratedBy id="74f71a">
+            <opm:effect ref="output-6fc71c"/>
+            <opm:role value="wps output"/>
+            <opm:cause ref="org.n52.wps.server.r.Make_Realizations-783214"/>
+            <opm:account ref="processExecution"/>
+        </opm:wasGeneratedBy>
+        <opm:wasControlledBy>
+            <opm:effect ref="org.n52.wps.server.r.Make_Realizations-783214"/>
+            <opm:role value="Service"/>
+            <opm:cause ref="a1e339"/>
+            <opm:account ref="processExecution"/>
+        </opm:wasControlledBy>
+    </opm:causalDependencies>
+    <opm:annotations>
+        <opm:annotation id="9bf565">
+            <opm:property uri="http://openprovenance.org/model/opmo#type">
+                <opm:value xsi:type="xsd:string">application/geotiff</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>uspdf-c2fd51</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="9bf565">
+            <opm:property uri="href">
+                <opm:value xsi:type="xsd:string">SECOND LAYER URL</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>uspdf-c2fd51</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="4bebeb">
+            <opm:property uri="http://openprovenance.org/model/opmo#type">
+                <opm:value xsi:type="xsd:string">application/geotiff</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>spdf-7ab277</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="4bebeb">
+            <opm:property uri="href">
+                <opm:value xsi:type="xsd:string">FIRST LAYER URL</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>spdf-7ab277</opm:localSubject>
+        </opm:annotation>
+        <opm:annotation id="c46cf6">
+            <opm:property uri="http://openprovenance.org/model/opmo#type">
+                <opm:value xsi:type="xsd:string">application/geotiff</opm:value>
+            </opm:property>
+            <opm:account ref="processExecution"/>
+            <opm:localSubject>output-6fc71c</opm:localSubject>
+        </opm:annotation>
+    </opm:annotations>
+</opm:opmGraph>

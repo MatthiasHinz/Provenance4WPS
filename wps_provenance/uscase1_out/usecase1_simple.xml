@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opm:opmGraph xmlns:opm="http://openprovenance.org/model/v1.1.a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://example.com/">
+    <opm:accounts>
+        <opm:account id="processExecution"/>
+    </opm:accounts>
+    <opm:processes>
+        <opm:process id="org.n52.wps.server.r.Idw-48cbd9">
+            <opm:account ref="processExecution"/>
+            <opm:label value="org.n52.wps.server.r.Idw"/>
+        </opm:process>
+    </opm:processes>
+    <opm:artifacts>
+        <opm:artifact id="points-869cbf">
+            <opm:account ref="processExecution"/>
+            <opm:label value="points"/>
+        </opm:artifact>
+        <opm:artifact id="nmax-238502">
+            <opm:account ref="processExecution"/>
+            <opm:label value="nmax"/>
+        </opm:artifact>
+        <opm:artifact id="maxdist-2b94e7">
+            <opm:account ref="processExecution"/>
+            <opm:label value="maxdist"/>
+        </opm:artifact>
+        <opm:artifact id="attributename-835bc1">
+            <opm:account ref="processExecution"/>
+            <opm:label value="attributename"/>
+        </opm:artifact>
+        <opm:artifact id="raster-d2ffbc">
+            <opm:account ref="processExecution"/>
+            <opm:label value="raster"/>
+        </opm:artifact>
+        <opm:artifact id="result-b3ca5b">
+            <opm:account ref="processExecution"/>
+            <opm:label value="result"/>
+        </opm:artifact>
+    </opm:artifacts>
+    <opm:agents>
+        <opm:agent id="552172">
+            <opm:account ref="processExecution"/>
+            <opm:label value="WPS"/>
+        </opm:agent>
+    </opm:agents>
+    <opm:causalDependencies>
+        <opm:used id="51b87b">
+            <opm:effect ref="org.n52.wps.server.r.Idw-48cbd9"/>
+            <opm:role value="wps input"/>
+            <opm:cause ref="points-869cbf"/>
+            <opm:account ref="processExecution"/>
+        </opm:used>
+        <opm:used id="d29a19">
+            <opm:effect ref="org.n52.wps.server.r.Idw-48cbd9"/>
+            <opm:role value="wps input"/>
+            <opm:cause ref="nmax-238502"/>
+            <opm:account ref="processExecution"/>
+        </opm:used>
+        <opm:used id="bf71a2">
+            <opm:effect ref="org.n52.wps.server.r.Idw-48cbd9"/>
+            <opm:role value="wps input"/>
+            <opm:cause ref="maxdist-2b94e7"/>
+            <opm:account ref="processExecution"/>
+        </opm:used>
+        <opm:used id="0cec95">
+            <opm:effect ref="org.n52.wps.server.r.Idw-48cbd9"/>
+            <opm:role value="wps input"/>
+            <opm:cause ref="attributename-835bc1"/>
+            <opm:account ref="processExecution"/>
+        </opm:used>
+        <opm:used id="c1149c">
+            <opm:effect ref="org.n52.wps.server.r.Idw-48cbd9"/>
+            <opm:role value="wps input"/>
+            <opm:cause ref="raster-d2ffbc"/>
+            <opm:account ref="processExecution"/>
+        </opm:used>
+        <opm:wasGeneratedBy id="533ea4">
+            <opm:effect ref="result-b3ca5b"/>
+            <opm:role value="wps output"/>
+            <opm:cause ref="org.n52.wps.server.r.Idw-48cbd9"/>
+            <opm:account ref="processExecution"/>
+        </opm:wasGeneratedBy>
+        <opm:wasControlledBy>
+            <opm:effect ref="org.n52.wps.server.r.Idw-48cbd9"/>
+            <opm:role value="Service"/>
+            <opm:cause ref="552172"/>
+            <opm:account ref="processExecution"/>
+        </opm:wasControlledBy>
+    </opm:causalDependencies>
+    <opm:annotations/>
+</opm:opmGraph>

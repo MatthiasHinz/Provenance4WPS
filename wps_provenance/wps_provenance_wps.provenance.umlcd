@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/0.9.0" xmi:id="_LuPsENBHEeG5GNUAkN2FnA">
+  <modelElement href="wps_provenance.uml#_a1JtEM4TEeGq3d5-lbnbPg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_NAjBcNBHEeG5GNUAkN2FnA" sourceItem="_NAhMQNBHEeG5GNUAkN2FnA" targetItem="_NApIJ9BHEeG5GNUAkN2FnA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_NAkPkdBHEeG5GNUAkN2FnA" sourceItem="_NAkPkNBHEeG5GNUAkN2FnA" targetItem="_NApIL9BHEeG5GNUAkN2FnA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NAsycNBHEeG5GNUAkN2FnA" sourceAnchor="187.0,0.0" targetAnchor="348.0,116.0" source="_NBD-0dBHEeG5GNUAkN2FnA" target="_NBD-0dBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_FrnGINBFEeG5GNUAkN2FnA"/>
+    <visualProperties xmi:id="_NElM4NBHEeG5GNUAkN2FnA" position="690.0,690.0"/>
+    <nameVisual xmi:id="_NBCJoNBHEeG5GNUAkN2FnA" text="">
+      <visualProperties xmi:id="_NjCqgNBHEeG5GNUAkN2FnA" position="-263.5,-7.5"/>
+    </nameVisual>
+    <bendpoints xmi:id="_d1HVYNBIEeG5GNUAkN2FnA" sourceY="-27" targetX="-161" targetY="-143"/>
+    <bendpoints xmi:id="_d1H8cNBIEeG5GNUAkN2FnA" sourceX="325" sourceY="-27" targetX="164" targetY="-143"/>
+    <bendpoints xmi:id="_d1H8cdBIEeG5GNUAkN2FnA" sourceX="325" sourceY="116" targetX="164"/>
+    <stereotypes xmi:id="_NBCwsdBHEeG5GNUAkN2FnA" name="Reference">
+      <modelElement href="wps_provenance.uml#_FroUQNBFEeG5GNUAkN2FnA"/>
+    </stereotypes>
+    <sourceRole xmi:id="_NBCJodBHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_FrnGIdBFEeG5GNUAkN2FnA"/>
+      <visualProperties xmi:id="_Ni-ZENBHEeG5GNUAkN2FnA" position="5.0,-70.5"/>
+      <visibility xmi:id="_NBDXwdBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NBDXwNBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NBCwsNBHEeG5GNUAkN2FnA" name="successorProcesses" navigable="true">
+      <modelElement href="wps_provenance.uml#_FqHRUNBFEeG5GNUAkN2FnA"/>
+      <visualProperties xmi:id="_NjCqgdBHEeG5GNUAkN2FnA" position="5.0,-43.5"/>
+      <visibility xmi:id="_NBD-0NBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NBDXwtBHEeG5GNUAkN2FnA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_NA-fQNBHEeG5GNUAkN2FnA" sourceItem="_NA94MNBHEeG5GNUAkN2FnA" targetItem="_NBD-9dBHEeG5GNUAkN2FnA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NBakINBHEeG5GNUAkN2FnA" sourceAnchor="272.0,0.0" targetAnchor="543.0,37.0" source="_NBjuENBHEeG5GNUAkN2FnA" target="_NBjuENBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_k7VWcs5hEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDmVcNBHEeG5GNUAkN2FnA" position="570.0,570.0"/>
+    <nameVisual xmi:id="_NBe1kNBHEeG5GNUAkN2FnA" text="">
+      <visualProperties xmi:id="_NjQF4NBHEeG5GNUAkN2FnA" position="-354.5,-7.5"/>
+    </nameVisual>
+    <bendpoints xmi:id="_d1ODENBIEeG5GNUAkN2FnA" sourceY="-80" targetX="-271" targetY="-117"/>
+    <bendpoints xmi:id="_d1P4QNBIEeG5GNUAkN2FnA" sourceX="377" sourceY="-80" targetX="106" targetY="-117"/>
+    <bendpoints xmi:id="_d1QfUNBIEeG5GNUAkN2FnA" sourceX="377" sourceY="37" targetX="106"/>
+    <stereotypes xmi:id="_NBgDsNBHEeG5GNUAkN2FnA" name="Reference">
+      <modelElement href="wps_provenance.uml#_k7fHcM5hEeGq3d5-lbnbPg"/>
+    </stereotypes>
+    <sourceRole xmi:id="_NBfcoNBHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_k7VWc85hEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_NjOQsNBHEeG5GNUAkN2FnA" position="-20.5,-39.5"/>
+      <visibility xmi:id="_NBgqwdBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NBgqwNBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NBfcodBHEeG5GNUAkN2FnA" name="instance" navigable="true">
+      <modelElement href="wps_provenance.uml#_k7VWcM5hEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_NjQs8NBHEeG5GNUAkN2FnA" position="5.5,-43.5"/>
+      <stereotypes xmi:id="__SK2YNWrEeGcv9_cbh8UyQ" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_k7VWcc5hEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NBjHANBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NBif8NBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NBljQNBHEeG5GNUAkN2FnA" sourceAnchor="228.0,88.0" targetAnchor="0.0,107.0" source="_NB66ctBHEeG5GNUAkN2FnA" target="_NApIENBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_uERQgM4XEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDiEANBHEeG5GNUAkN2FnA" position="490.0,490.0"/>
+    <nameVisual xmi:id="_NButMNBHEeG5GNUAkN2FnA" text="">
+      <visualProperties xmi:id="_NjVlcNBHEeG5GNUAkN2FnA" position="0.5,-7.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_NBvUQNBHEeG5GNUAkN2FnA" name="service" navigable="true">
+      <modelElement href="wps_provenance.uml#_uEFDQM4XEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_NjSiINBHEeG5GNUAkN2FnA" position="5.0,-43.5"/>
+      <visibility xmi:id="_NB5sUNBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NB5FQNBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NB33INBHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_uERQgc4XEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_NjWMgNBHEeG5GNUAkN2FnA" position="-19.5,8.5"/>
+      <visibility xmi:id="_NB66cdBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NB66cNBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NB99wNBHEeG5GNUAkN2FnA" sourceAnchor="174.0,232.0" targetAnchor="172.0,175.0" source="_NBD-0dBHEeG5GNUAkN2FnA" target="_NCQRotBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_JAYp8M4eEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDluYNBHEeG5GNUAkN2FnA" position="550.0,550.0"/>
+    <nameVisual xmi:id="_NCMnQNBHEeG5GNUAkN2FnA" text="">
+      <visualProperties xmi:id="_NjGU4NBHEeG5GNUAkN2FnA" position="-456.0,-7.5"/>
+    </nameVisual>
+    <bendpoints xmi:id="_d1JxoNBIEeG5GNUAkN2FnA" sourceY="79" targetX="949" targetY="108"/>
+    <bendpoints xmi:id="_d1KYsNBIEeG5GNUAkN2FnA" sourceX="-949" sourceY="79" targetY="108"/>
+    <sourceRole xmi:id="_NCMnQdBHEeG5GNUAkN2FnA" name="processRecord" navigable="true">
+      <modelElement href="wps_provenance.uml#_bnODPM4TEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_NjEfsNBHEeG5GNUAkN2FnA" position="6.0,5.0"/>
+      <visibility xmi:id="_NCPqkdBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NCPqkNBHEeG5GNUAkN2FnA" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NCNOUNBHEeG5GNUAkN2FnA" name="wPSInput" navigable="true">
+      <modelElement href="wps_provenance.uml#_JASjVM4eEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_NjG78NBHEeG5GNUAkN2FnA" position="6.5,5.499999999999432"/>
+      <visibility xmi:id="_NCQRodBHEeG5GNUAkN2FnA" label="~"/>
+      <cardinality xmi:id="_NCQRoNBHEeG5GNUAkN2FnA" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NCSG0NBHEeG5GNUAkN2FnA" sourceAnchor="0.0,116.0" targetAnchor="308.0,50.0" source="_NBD-0dBHEeG5GNUAkN2FnA" target="_NCsWgNBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_JASjU84eEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDlHUNBHEeG5GNUAkN2FnA" position="530.0,530.0"/>
+    <nameVisual xmi:id="_NCpTMNBHEeG5GNUAkN2FnA" text="">
+      <visualProperties xmi:id="_NjL0cNBHEeG5GNUAkN2FnA" position="-26.5,-7.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_NCp6QNBHEeG5GNUAkN2FnA" name="processRecord" navigable="true">
+      <modelElement href="wps_provenance.uml#_bnODNs4TEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_NjIxINBHEeG5GNUAkN2FnA" position="-97.0,8.5"/>
+      <visibility xmi:id="_NCrvcdBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NCrvcNBHEeG5GNUAkN2FnA" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NCp6QdBHEeG5GNUAkN2FnA" name="wPSOutput" navigable="true">
+      <modelElement href="wps_provenance.uml#_JASjUM4eEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_NjMbgNBHEeG5GNUAkN2FnA" position="5.0,-43.5"/>
+      <visibility xmi:id="_NCrvc9BHEeG5GNUAkN2FnA" label="~"/>
+      <cardinality xmi:id="_NCrvctBHEeG5GNUAkN2FnA" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NCtkoNBHEeG5GNUAkN2FnA" source="_NBD-0dBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bnH8lM4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NCzrQNBHEeG5GNUAkN2FnA" position="230.0,230.0"/>
+    <nameVisual xmi:id="_NCtkodBHEeG5GNUAkN2FnA" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NDDi4NBHEeG5GNUAkN2FnA" target="_NBD-0dBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bpsvdc4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDEJ8NBHEeG5GNUAkN2FnA" position="250.0,250.0"/>
+    <nameVisual xmi:id="_NDDi4dBHEeG5GNUAkN2FnA" text=""/>
+    <sourceRole xmi:id="_NDDi4tBHEeG5GNUAkN2FnA" name="executeRequest" navigable="true">
+      <modelElement href="wps_provenance.uml#_bnODP84TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NDDi49BHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDDi5NBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NDDi5dBHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_bpsvds4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NDDi5tBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDDi59BHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NDJCcNBHEeG5GNUAkN2FnA" target="_NBD-0dBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bpsvd84TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDJCeNBHEeG5GNUAkN2FnA" position="270.0,270.0"/>
+    <nameVisual xmi:id="_NDJCcdBHEeG5GNUAkN2FnA" text=""/>
+    <sourceRole xmi:id="_NDJCctBHEeG5GNUAkN2FnA" name="executeResponse" navigable="true">
+      <modelElement href="wps_provenance.uml#_bnUJ0M4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NDJCc9BHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDJCdNBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NDJCddBHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_bpsveM4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NDJCdtBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDJCd9BHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NDJpgNBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bpsvec4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDJpgtBHEeG5GNUAkN2FnA" position="290.0,290.0"/>
+    <nameVisual xmi:id="_NDJpgdBHEeG5GNUAkN2FnA" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NDKQkNBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bpsve84TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDKQktBHEeG5GNUAkN2FnA" position="310.0,310.0"/>
+    <nameVisual xmi:id="_NDKQkdBHEeG5GNUAkN2FnA" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NDMFwNBHEeG5GNUAkN2FnA" target="_cwLGkNBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bpsvfc4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDMFyNBHEeG5GNUAkN2FnA" position="330.0,330.0"/>
+    <nameVisual xmi:id="_NDMFwdBHEeG5GNUAkN2FnA" text=""/>
+    <sourceRole xmi:id="_NDMFwtBHEeG5GNUAkN2FnA" name="properties" navigable="true">
+      <modelElement href="wps_provenance.uml#_a5id0M4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NDMFw9BHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDMFxNBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NDMFxdBHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_bpsvfs4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NDMFxtBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDMFx9BHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NDN68NBHEeG5GNUAkN2FnA" source="_cutG8NBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bqFJ8M4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDN6-dBHEeG5GNUAkN2FnA" position="350.0,350.0"/>
+    <nameVisual xmi:id="_NDN68dBHEeG5GNUAkN2FnA" text=""/>
+    <stereotypes xmi:id="_NDN68tBHEeG5GNUAkN2FnA" name="Reference">
+      <modelElement href="wps_provenance.uml#_bqFJ8s4TEeGq3d5-lbnbPg"/>
+    </stereotypes>
+    <sourceRole xmi:id="_NDN689BHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_bqFJ8c4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NDN69NBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDN69dBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NDN69tBHEeG5GNUAkN2FnA" name="properties" navigable="true">
+      <modelElement href="wps_provenance.uml#_bnB18s4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NDN699BHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDN6-NBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NDRlUdBHEeG5GNUAkN2FnA" source="_NApIENBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bqFJ884TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDSMaNBHEeG5GNUAkN2FnA" position="370.0,370.0"/>
+    <nameVisual xmi:id="_NDSMYNBHEeG5GNUAkN2FnA" text=""/>
+    <stereotypes xmi:id="_NDSMYdBHEeG5GNUAkN2FnA" name="Reference">
+      <modelElement href="wps_provenance.uml#_bqFJ9c4TEeGq3d5-lbnbPg"/>
+    </stereotypes>
+    <sourceRole xmi:id="_NDSMYtBHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_bqFJ9M4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NDSMY9BHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDSMZNBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NDSMZdBHEeG5GNUAkN2FnA" name="processDescription" navigable="true">
+      <modelElement href="wps_provenance.uml#_bnH8lc4TEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="__SUnYNWrEeGcv9_cbh8UyQ" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_bnH8ls4TEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NDSMZtBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDSMZ9BHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NDV2wNBHEeG5GNUAkN2FnA" source="_NBD-0dBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bqFJ9s4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDWd0NBHEeG5GNUAkN2FnA" position="390.0,390.0"/>
+    <nameVisual xmi:id="_NDV2wdBHEeG5GNUAkN2FnA" text=""/>
+    <stereotypes xmi:id="_NDV2wtBHEeG5GNUAkN2FnA" name="Reference">
+      <modelElement href="wps_provenance.uml#_bqLQkM4TEeGq3d5-lbnbPg"/>
+    </stereotypes>
+    <sourceRole xmi:id="_NDV2w9BHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_bqFJ984TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NDV2xNBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDV2xdBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NDV2xtBHEeG5GNUAkN2FnA" name="logger" navigable="true">
+      <modelElement href="wps_provenance.uml#_bnH8mM4TEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="__SV1gNWrEeGcv9_cbh8UyQ" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_bnODMM4TEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NDV2x9BHEeG5GNUAkN2FnA" label="-"/>
+      <cardinality xmi:id="_NDV2yNBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NDZhINBHEeG5GNUAkN2FnA" sourceAnchor="0.0,103.0" targetAnchor="0.0,82.0" source="_NBD-0dBHEeG5GNUAkN2FnA" target="_cv1IUtBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bqLQkc4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDaIMNBHEeG5GNUAkN2FnA" position="410.0,410.0"/>
+    <nameVisual xmi:id="_NDZhIdBHEeG5GNUAkN2FnA" text="">
+      <visualProperties xmi:id="_dAlhINBIEeG5GNUAkN2FnA" position="-40.0,12.5"/>
+    </nameVisual>
+    <bendpoints xmi:id="_d1MN4NBIEeG5GNUAkN2FnA" sourceX="-73" targetX="-118" targetY="273"/>
+    <bendpoints xmi:id="_d1MN4dBIEeG5GNUAkN2FnA" sourceX="-73" sourceY="-273" targetX="-118"/>
+    <stereotypes xmi:id="_NDZhItBHEeG5GNUAkN2FnA" name="Reference">
+      <modelElement href="wps_provenance.uml#_bqLQk84TEeGq3d5-lbnbPg"/>
+    </stereotypes>
+    <sourceRole xmi:id="_NDZhI9BHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_bqLQks4TEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_dAid0NBIEeG5GNUAkN2FnA" position="-93.5,-40.0"/>
+      <visibility xmi:id="_NDZhJNBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDZhJdBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NDZhJtBHEeG5GNUAkN2FnA" name="internalProcessSteps" navigable="true">
+      <modelElement href="wps_provenance.uml#_bnODMc4TEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_dAmIMNBIEeG5GNUAkN2FnA" position="-114.5,60.5"/>
+      <visibility xmi:id="_NDZhJ9BHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDZhKNBHEeG5GNUAkN2FnA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NDb9YNBHEeG5GNUAkN2FnA" sourceAnchor="116.0,0.0" targetAnchor="252.0,0.0" source="_cv1IUtBIEeG5GNUAkN2FnA" target="_cvDFMtBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bqLQlM4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDb9atBHEeG5GNUAkN2FnA" position="430.0,430.0"/>
+    <nameVisual xmi:id="_NDb9YdBHEeG5GNUAkN2FnA" text="">
+      <visualProperties xmi:id="_dAy8gNBIEeG5GNUAkN2FnA" position="207.0,-7.5"/>
+    </nameVisual>
+    <bendpoints xmi:id="_d1ZCMNBIEeG5GNUAkN2FnA" sourceY="-74" targetX="702" targetY="-74"/>
+    <bendpoints xmi:id="_d1ZpQNBIEeG5GNUAkN2FnA" sourceX="-702" sourceY="-74" targetY="-74"/>
+    <stereotypes xmi:id="_NDb9YtBHEeG5GNUAkN2FnA" name="Reference">
+      <modelElement href="wps_provenance.uml#_bqLQls4TEeGq3d5-lbnbPg"/>
+    </stereotypes>
+    <sourceRole xmi:id="_NDb9Y9BHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_bqLQlc4TEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_dAxHUdBIEeG5GNUAkN2FnA" position="-20.0,-65.5"/>
+      <visibility xmi:id="_NDb9ZNBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDb9ZdBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NDb9ZtBHEeG5GNUAkN2FnA" name="input" navigable="true">
+      <modelElement href="wps_provenance.uml#_bnUJ2M4TEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_dA0KoNBIEeG5GNUAkN2FnA" position="5.0,-117.5"/>
+      <stereotypes xmi:id="_NDb9Z9BHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_FocdYNBFEeG5GNUAkN2FnA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_cv1IUNBIEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_FocdYNBFEeG5GNUAkN2FnA"/>
+      </stereotypes>
+      <visibility xmi:id="_NDb9aNBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDb9adBHEeG5GNUAkN2FnA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NDdykNBHEeG5GNUAkN2FnA" sourceAnchor="0.0,69.0" targetAnchor="478.0,69.0" source="_cv1IUtBIEeG5GNUAkN2FnA" target="_cvDFMtBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bqLQl84TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDeZoNBHEeG5GNUAkN2FnA" position="450.0,450.0"/>
+    <nameVisual xmi:id="_NDdykdBHEeG5GNUAkN2FnA" text="">
+      <visualProperties xmi:id="_dA6RQNBIEeG5GNUAkN2FnA" position="-84.5,-7.5"/>
+    </nameVisual>
+    <stereotypes xmi:id="_NDdyktBHEeG5GNUAkN2FnA" name="Reference">
+      <modelElement href="wps_provenance.uml#_bqLQmc4TEeGq3d5-lbnbPg"/>
+    </stereotypes>
+    <sourceRole xmi:id="_NDdyk9BHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_bqLQmM4TEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_dA4cENBIEeG5GNUAkN2FnA" position="-138.0,8.5"/>
+      <visibility xmi:id="_NDdylNBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDdyldBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NDdyltBHEeG5GNUAkN2FnA" name="output" navigable="true">
+      <modelElement href="wps_provenance.uml#_bnUJ2s4TEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_dA64UNBIEeG5GNUAkN2FnA" position="5.0,-43.50000000000017"/>
+      <stereotypes xmi:id="_NDdyl9BHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_Foe5oNBFEeG5GNUAkN2FnA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_cv1IUdBIEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_Foe5oNBFEeG5GNUAkN2FnA"/>
+      </stereotypes>
+      <visibility xmi:id="_NDdymNBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDdymdBHEeG5GNUAkN2FnA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NDg14NBHEeG5GNUAkN2FnA" source="_NB66ctBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bqLQms4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NDhc8NBHEeG5GNUAkN2FnA" position="470.0,470.0"/>
+    <nameVisual xmi:id="_NDg14dBHEeG5GNUAkN2FnA" text=""/>
+    <stereotypes xmi:id="_NDg14tBHEeG5GNUAkN2FnA" name="Reference">
+      <modelElement href="wps_provenance.uml#_bqLQnM4TEeGq3d5-lbnbPg"/>
+    </stereotypes>
+    <sourceRole xmi:id="_NDg149BHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_bqLQm84TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NDg15NBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDg15dBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NDg15tBHEeG5GNUAkN2FnA" name="hostURL" navigable="true">
+      <modelElement href="wps_provenance.uml#_bnaQdM4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NDg159BHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NDg16NBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_NDuRQNBHEeG5GNUAkN2FnA" sourceItem="_NDrN8NBHEeG5GNUAkN2FnA" targetItem="_ND0X4NBHEeG5GNUAkN2FnA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ND5QYNBHEeG5GNUAkN2FnA" source="_NCQRotBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_6w4qc86CEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NEa00NBHEeG5GNUAkN2FnA" position="610.0,610.0"/>
+    <nameVisual xmi:id="_ND5QYdBHEeG5GNUAkN2FnA" text=""/>
+    <stereotypes xmi:id="_ND5QYtBHEeG5GNUAkN2FnA" name="Reference">
+      <modelElement href="wps_provenance.uml#_6w-xEM6CEeGq3d5-lbnbPg"/>
+    </stereotypes>
+    <sourceRole xmi:id="_ND5QY9BHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_6w4qdM6CEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_ND5QZNBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_ND5QZdBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ND5QZtBHEeG5GNUAkN2FnA" name="logger" navigable="true">
+      <modelElement href="wps_provenance.uml#_6w4qcM6CEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="__ScjMNWrEeGcv9_cbh8UyQ" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_6w4qcs6CEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_ND5QZ9BHEeG5GNUAkN2FnA" label="-"/>
+      <cardinality xmi:id="_ND5QaNBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NEcC8NBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_1fVJ4M6FEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NEcqANBHEeG5GNUAkN2FnA" position="630.0,630.0"/>
+    <nameVisual xmi:id="_NEcC8dBHEeG5GNUAkN2FnA" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NEg7cNBHEeG5GNUAkN2FnA" source="_NCsWgNBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_Or6xUM6KEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NEhiiNBHEeG5GNUAkN2FnA" position="650.0,650.0"/>
+    <nameVisual xmi:id="_NEhigNBHEeG5GNUAkN2FnA" text=""/>
+    <stereotypes xmi:id="_NEhigdBHEeG5GNUAkN2FnA" name="Reference">
+      <modelElement href="wps_provenance.uml#_Or6xUs6KEeGq3d5-lbnbPg"/>
+    </stereotypes>
+    <sourceRole xmi:id="_NEhigtBHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_Or6xUc6KEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NEhig9BHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NEhihNBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NEhihdBHEeG5GNUAkN2FnA" name="logger" navigable="true">
+      <modelElement href="wps_provenance.uml#_Or0qsM6KEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="__Se_cNWrEeGcv9_cbh8UyQ" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_Or0qss6KEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NEhihtBHEeG5GNUAkN2FnA" label="-"/>
+      <cardinality xmi:id="_NEhih9BHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NEj-wNBHEeG5GNUAkN2FnA" source="_cvDFMtBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_StueQM6oEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NEkl0NBHEeG5GNUAkN2FnA" position="670.0,670.0"/>
+    <nameVisual xmi:id="_NEj-wdBHEeG5GNUAkN2FnA" text=""/>
+    <stereotypes xmi:id="_NEj-wtBHEeG5GNUAkN2FnA" name="Reference">
+      <modelElement href="wps_provenance.uml#_StvsYM6oEeGq3d5-lbnbPg"/>
+    </stereotypes>
+    <sourceRole xmi:id="_NEj-w9BHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_StueQc6oEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NEj-xNBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NEj-xdBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NEj-xtBHEeG5GNUAkN2FnA" name="logger" navigable="true">
+      <modelElement href="wps_provenance.uml#_Sto-sM6oEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="_NEj-x9BHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_StqM0M6oEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_cvDFMNBIEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_StqM0M6oEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NEj-yNBHEeG5GNUAkN2FnA" label="-"/>
+      <cardinality xmi:id="_NEj-ydBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NEo3QNBHEeG5GNUAkN2FnA" sourceAnchor="226.0,137.0" targetAnchor="0.0,69.0" source="_cvDFMtBIEeG5GNUAkN2FnA" target="_cvDFMtBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_Fro7UNBFEeG5GNUAkN2FnA"/>
+    <visualProperties xmi:id="_NEpeV9BHEeG5GNUAkN2FnA" position="710.0,710.0"/>
+    <nameVisual xmi:id="_NEo3QdBHEeG5GNUAkN2FnA" text="">
+      <visualProperties xmi:id="_dAs14NBIEeG5GNUAkN2FnA" position="22.5,-7.5"/>
+    </nameVisual>
+    <bendpoints xmi:id="_d1V-4NBIEeG5GNUAkN2FnA" sourceY="23" targetX="226" targetY="91"/>
+    <bendpoints xmi:id="_d1V-4dBIEeG5GNUAkN2FnA" sourceX="-416" sourceY="23" targetX="-190" targetY="91"/>
+    <bendpoints xmi:id="_d1Wl8NBIEeG5GNUAkN2FnA" sourceX="-416" sourceY="-68" targetX="-190"/>
+    <stereotypes xmi:id="_NEo3QtBHEeG5GNUAkN2FnA" name="Reference">
+      <modelElement href="wps_provenance.uml#_FrqJcNBFEeG5GNUAkN2FnA"/>
+    </stereotypes>
+    <sourceRole xmi:id="_NEpeUNBHEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_Fro7UdBFEeG5GNUAkN2FnA"/>
+      <visualProperties xmi:id="_dApykNBIEeG5GNUAkN2FnA" position="-20.0,31.5"/>
+      <visibility xmi:id="_NEpeUdBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NEpeUtBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NEpeU9BHEeG5GNUAkN2FnA" name="wasDerivedByArtifacts" navigable="true">
+      <modelElement href="wps_provenance.uml#_FqK7sNBFEeG5GNUAkN2FnA"/>
+      <visualProperties xmi:id="_dAtc8NBIEeG5GNUAkN2FnA" position="-137.00000000000006,8.5"/>
+      <stereotypes xmi:id="_NEpeVNBHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_FqMw4NBFEeG5GNUAkN2FnA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_cvDFMdBIEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_FqMw4NBFEeG5GNUAkN2FnA"/>
+      </stereotypes>
+      <visibility xmi:id="_NEpeVdBHEeG5GNUAkN2FnA" label="-"/>
+      <cardinality xmi:id="_NEpeVtBHEeG5GNUAkN2FnA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_cugSoNBIEeG5GNUAkN2FnA" sourceItem="_cufEgNBIEeG5GNUAkN2FnA" targetItem="_cutG8NBIEeG5GNUAkN2FnA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_cukkENBIEeG5GNUAkN2FnA" sourceItem="_cuj9ANBIEeG5GNUAkN2FnA" targetItem="_cutG_9BIEeG5GNUAkN2FnA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_cunAUNBIEeG5GNUAkN2FnA" sourceItem="_cumZQNBIEeG5GNUAkN2FnA" targetItem="_cutHBdBIEeG5GNUAkN2FnA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cux_cNBIEeG5GNUAkN2FnA" sourceAnchor="239.0,0.0" targetAnchor="172.0,156.0" subClass="_cvDFMtBIEeG5GNUAkN2FnA" superClass="_cutG8NBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bgWmMc4TEeGq3d5-lbnbPg"/>
+    <bendpoints xmi:id="_d1XNANBIEeG5GNUAkN2FnA" sourceY="-139" targetX="-728" targetY="26"/>
+    <bendpoints xmi:id="_d1XNAdBIEeG5GNUAkN2FnA" sourceX="728" sourceY="-139" targetY="26"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cu7wcNBIEeG5GNUAkN2FnA" sourceAnchor="172.0,0.0" targetAnchor="239.0,137.0" subClass="_NCQRotBHEeG5GNUAkN2FnA" superClass="_cvDFMtBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bgizcM4TEeGq3d5-lbnbPg"/>
+    <bendpoints xmi:id="_d1S7kNBIEeG5GNUAkN2FnA" sourceY="-16" targetX="-221" targetY="127"/>
+    <bendpoints xmi:id="_d1S7kdBIEeG5GNUAkN2FnA" sourceX="221" sourceY="-16" targetY="127"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cu8XgNBIEeG5GNUAkN2FnA" sourceAnchor="154.0,0.0" targetAnchor="239.0,137.0" subClass="_NCsWgNBHEeG5GNUAkN2FnA" superClass="_cvDFMtBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bgizcc4TEeGq3d5-lbnbPg"/>
+    <bendpoints xmi:id="_d1TioNBIEeG5GNUAkN2FnA" sourceY="-54" targetX="130" targetY="127"/>
+    <bendpoints xmi:id="_d1UwwNBIEeG5GNUAkN2FnA" sourceX="-130" sourceY="-54" targetY="127"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cvFhcNBIEeG5GNUAkN2FnA" sourceAnchor="64.0,0.0" targetAnchor="172.0,156.0" subClass="_cvVZENBIEeG5GNUAkN2FnA" superClass="_cutG8NBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bgWmM84TEeGq3d5-lbnbPg"/>
+    <bendpoints xmi:id="_d1YbINBIEeG5GNUAkN2FnA" sourceY="-194" targetX="429" targetY="26"/>
+    <bendpoints xmi:id="_d1YbIdBIEeG5GNUAkN2FnA" sourceX="-429" sourceY="-194" targetY="26"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cvPScNBIEeG5GNUAkN2FnA" sourceAnchor="35.0,0.0" targetAnchor="64.0,27.0" subClass="_NAbssNBHEeG5GNUAkN2FnA" superClass="_cvVZENBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bf4FEM4TEeGq3d5-lbnbPg"/>
+    <bendpoints xmi:id="_d1AnsNBIEeG5GNUAkN2FnA" sourceY="-25" targetX="208" targetY="52"/>
+    <bendpoints xmi:id="_d1AnsdBIEeG5GNUAkN2FnA" sourceX="-208" sourceY="-25" targetY="52"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cvPScdBIEeG5GNUAkN2FnA" sourceAnchor="24.0,0.0" targetAnchor="64.0,27.0" subClass="_NAc60NBHEeG5GNUAkN2FnA" superClass="_cvVZENBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bf4FEc4TEeGq3d5-lbnbPg"/>
+    <bendpoints xmi:id="_d1GuUNBIEeG5GNUAkN2FnA" sourceY="-25" targetX="-117" targetY="52"/>
+    <bendpoints xmi:id="_d1GuUdBIEeG5GNUAkN2FnA" sourceX="117" sourceY="-25" targetY="52"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cvP5gNBIEeG5GNUAkN2FnA" sourceAnchor="60.0,0.0" targetAnchor="64.0,27.0" subClass="_NBF0ANBHEeG5GNUAkN2FnA" superClass="_cvVZENBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bgWmMs4TEeGq3d5-lbnbPg"/>
+    <bendpoints xmi:id="_d1NcANBIEeG5GNUAkN2FnA" sourceY="-25" targetX="-221" targetY="52"/>
+    <bendpoints xmi:id="_d1NcAdBIEeG5GNUAkN2FnA" sourceX="221" sourceY="-25" targetY="52"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cvP5gdBIEeG5GNUAkN2FnA" sourceAnchor="114.0,0.0" targetAnchor="64.0,27.0" subClass="_NB66ctBHEeG5GNUAkN2FnA" superClass="_cvVZENBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bgcs0c4TEeGq3d5-lbnbPg"/>
+    <bendpoints xmi:id="_d1RtcNBIEeG5GNUAkN2FnA" sourceY="-42" targetX="39" targetY="52"/>
+    <bendpoints xmi:id="_d1RtcdBIEeG5GNUAkN2FnA" sourceX="-39" sourceY="-42" targetY="52"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_cvXOQNBIEeG5GNUAkN2FnA" sourceAnchor="0.0,14.0" targetAnchor="257.0,69.0" source="_cvVZENBIEeG5GNUAkN2FnA" target="_cv1IUtBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_lRq4cNBGEeG5GNUAkN2FnA"/>
+    <nameVisual xmi:id="_cvhmUNBIEeG5GNUAkN2FnA" text="">
+      <visualProperties xmi:id="_dAwgQNBIEeG5GNUAkN2FnA" position="-61.5,-7.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_cvhmUdBIEeG5GNUAkN2FnA" name="processingController" navigable="true">
+      <modelElement href="wps_provenance.uml#_bnUJ0c4TEeGq3d5-lbnbPg"/>
+      <visualProperties xmi:id="_dAurENBIEeG5GNUAkN2FnA" position="-129.5,8.5"/>
+      <visibility xmi:id="_cvz6MdBIEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_cvz6MNBIEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_cviNYNBIEeG5GNUAkN2FnA" name="">
+      <modelElement href="wps_provenance.uml#_lRrfgNBGEeG5GNUAkN2FnA"/>
+      <visualProperties xmi:id="_dAxHUNBIEeG5GNUAkN2FnA" position="5.5,-43.500000000000114"/>
+      <visibility xmi:id="_cv0hQdBIEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_cv0hQNBIEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cvejANBIEeG5GNUAkN2FnA" sourceAnchor="129.0,0.0" targetAnchor="172.0,156.0" subClass="_cv1IUtBIEeG5GNUAkN2FnA" superClass="_cutG8NBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bgWmMM4TEeGq3d5-lbnbPg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cvfxINBIEeG5GNUAkN2FnA" sourceAnchor="174.0,0.0" targetAnchor="129.0,137.0" subClass="_NBD-0dBHEeG5GNUAkN2FnA" superClass="_cv1IUtBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bgQfkM4TEeGq3d5-lbnbPg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cv3kkNBIEeG5GNUAkN2FnA" sourceAnchor="172.0,0.0" targetAnchor="85.0,90.0" dashed="true" subClass="_cutG8NBIEeG5GNUAkN2FnA" superClass="_cwLGkNBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_bfr30c4TEeGq3d5-lbnbPg"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_NAhMQNBHEeG5GNUAkN2FnA" item="_NApIJ9BHEeG5GNUAkN2FnA" sourceConnectionVisual="_NAjBcNBHEeG5GNUAkN2FnA" text="&#xD;&#xA;     * @return Ei&#xD;&#xA;     * @throws MalformedURLException&#xD;&#xA;     * @throws XmlException&#xD;&#xA;     * @throws IOException">
+    <modelElement href="wps_provenance.uml#_bpsvcc4TEeGq3d5-lbnbPg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_NAkPkNBHEeG5GNUAkN2FnA" item="_NApIL9BHEeG5GNUAkN2FnA" sourceConnectionVisual="_NAkPkdBHEeG5GNUAkN2FnA" text="Sets the ProcessdescriptionDocument manually&#xD;&#xA;     * &#xD;&#xA;     * @param processDescription">
+    <modelElement href="wps_provenance.uml#_bpsvcs4TEeGq3d5-lbnbPg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_NA94MNBHEeG5GNUAkN2FnA" item="_NBD-9dBHEeG5GNUAkN2FnA" sourceConnectionVisual="_NA-fQNBHEeG5GNUAkN2FnA" text="User ProvenanceMapper to generate an OPM graph out of the Information&#xD;&#xA;     * associated with this class&#xD;&#xA;     * &#xD;&#xA;     * @see ProvenanceMapper&#xD;&#xA;     * @return">
+    <modelElement href="wps_provenance.uml#_bpsvdM4TEeGq3d5-lbnbPg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_NDrN8NBHEeG5GNUAkN2FnA" item="_ND0X4NBHEeG5GNUAkN2FnA" sourceConnectionVisual="_NDuRQNBHEeG5GNUAkN2FnA" text="&#xD;&#xA;@author Matthias Hinz&#xD;&#xA; *">
+    <modelElement href="wps_provenance.uml#_Fq4GUNBFEeG5GNUAkN2FnA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NAbssNBHEeG5GNUAkN2FnA" name="Generator" generalizations="_cvPScNBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_a4riMM4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NAbsstBHEeG5GNUAkN2FnA" position="1781.0,620.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NAbssdBHEeG5GNUAkN2FnA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NAc60NBHEeG5GNUAkN2FnA" name="Parser" generalizations="_cvPScdBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_a4riMc4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NAeI8NBHEeG5GNUAkN2FnA" position="1467.0,620.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NAc60dBHEeG5GNUAkN2FnA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NApIENBHEeG5GNUAkN2FnA" name="ProcessMetadata" associationsIn="_NBljQNBHEeG5GNUAkN2FnA" associationsOut="_NDRlUdBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_a4riMs4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NAqWMNBHEeG5GNUAkN2FnA" position="1928.0,618.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NApIEdBHEeG5GNUAkN2FnA" label="+"/>
+    <attributes xmi:id="_NApIEtBHEeG5GNUAkN2FnA" name="executions">
+      <modelElement href="wps_provenance.uml#_bnH8kM4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NApIE9BHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NApIFNBHEeG5GNUAkN2FnA" label="*" max="-1"/>
+      <type xmi:id="_NApIFdBHEeG5GNUAkN2FnA" name="ProcessExecution">
+        <modelElement href="wps_provenance.uml#_a492EM4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NApIFtBHEeG5GNUAkN2FnA" name="processDescription">
+      <modelElement href="wps_provenance.uml#_bnH8lc4TEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="_NDRlUNBHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_bnH8ls4TEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="__V-YUNWrEeGcv9_cbh8UyQ" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_bnH8ls4TEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NApIGNBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NApIGdBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_NApIGtBHEeG5GNUAkN2FnA" name="ProcessDescriptionsDocument">
+        <modelElement href="wps_provenance.uml#_bf4FGs4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NApIG9BHEeG5GNUAkN2FnA" name="identifier">
+      <modelElement href="wps_provenance.uml#_bnH8l84TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NApIHNBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NApIHdBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_NApIHtBHEeG5GNUAkN2FnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NApIH9BHEeG5GNUAkN2FnA" name="service">
+      <modelElement href="wps_provenance.uml#_uEFDQM4XEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NApIINBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NApIIdBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_NApIItBHEeG5GNUAkN2FnA" name="Service">
+        <modelElement href="wps_provenance.uml#_a5okcM4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NApII9BHEeG5GNUAkN2FnA" name="isProcessDescriptionSetManually">
+      <modelElement href="wps_provenance.uml#_a4xo0M4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NApIJNBHEeG5GNUAkN2FnA" label="+"/>
+      <outParameters xmi:id="_NApIJdBHEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_a4xo0c4TEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NApIJtBHEeG5GNUAkN2FnA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NApIJ9BHEeG5GNUAkN2FnA" comments="_NAhMQNBHEeG5GNUAkN2FnA" targetConnectionVisual="_NAjBcNBHEeG5GNUAkN2FnA" name="getProcessDescriptionDocument">
+      <modelElement href="wps_provenance.uml#_a4xo1s4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NApIKNBHEeG5GNUAkN2FnA" label="+"/>
+      <outParameters xmi:id="_NApIKdBHEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_j_LqUM4sEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NApIKtBHEeG5GNUAkN2FnA" name="ProcessDescriptionsDocument">
+          <modelElement href="wps_provenance.uml#_bf4FGs4TEeGq3d5-lbnbPg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NApIK9BHEeG5GNUAkN2FnA" name="getDescriptionURL">
+      <modelElement href="wps_provenance.uml#_a43vcM4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NApILNBHEeG5GNUAkN2FnA" label="+"/>
+      <outParameters xmi:id="_NApILdBHEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_bjyUuc4TEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NApILtBHEeG5GNUAkN2FnA" name="URL">
+          <modelElement href="wps_provenance.uml#_bf4FGM4TEeGq3d5-lbnbPg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NApIL9BHEeG5GNUAkN2FnA" comments="_NAkPkNBHEeG5GNUAkN2FnA" targetConnectionVisual="_NAkPkdBHEeG5GNUAkN2FnA" name="setProcessDescriptionsDocument">
+      <modelElement href="wps_provenance.uml#_bjyUsc4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NApIMNBHEeG5GNUAkN2FnA" label="+"/>
+      <parameters xmi:id="_NApIMdBHEeG5GNUAkN2FnA" name="processDescription">
+        <modelElement href="wps_provenance.uml#_bjyUss4TEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NApIMtBHEeG5GNUAkN2FnA" name="ProcessDescriptionsDocument">
+          <modelElement href="wps_provenance.uml#_bf4FGs4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NApIM9BHEeG5GNUAkN2FnA" name="setDescriptionURL">
+      <modelElement href="wps_provenance.uml#_bjyUs84TEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="_NApINNBHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_bjyUtc4TEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_NApINdBHEeG5GNUAkN2FnA" name="Annotations">
+        <modelElement href="wps_provenance.uml#_bjyUts4TEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NApINtBHEeG5GNUAkN2FnA" label="-"/>
+      <parameters xmi:id="_NApIN9BHEeG5GNUAkN2FnA" name="value">
+        <modelElement href="wps_provenance.uml#_bjyUtM4TEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NApIONBHEeG5GNUAkN2FnA" name="URL">
+          <modelElement href="wps_provenance.uml#_bf4FGM4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NApIOdBHEeG5GNUAkN2FnA" name="ProcessMetadata">
+      <modelElement href="wps_provenance.uml#_uDgbgM4XEeGq3d5-lbnbPg"/>
+      <keywords xmi:id="_NApIOtBHEeG5GNUAkN2FnA" keyword="create"/>
+      <stereotypes xmi:id="_NApIO9BHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_IXcskM4cEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NApIPNBHEeG5GNUAkN2FnA" label="+"/>
+      <outParameters xmi:id="_NApIPdBHEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_uDgbgc4XEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NApIPtBHEeG5GNUAkN2FnA" name="ProcessMetadata">
+          <modelElement href="wps_provenance.uml#_a4riMs4TEeGq3d5-lbnbPg"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NBD-0dBHEeG5GNUAkN2FnA" name="ProcessExecution" associationsIn="_NAsycNBHEeG5GNUAkN2FnA _NDDi4NBHEeG5GNUAkN2FnA _NDJCcNBHEeG5GNUAkN2FnA" associationsOut="_NAsycNBHEeG5GNUAkN2FnA _NB99wNBHEeG5GNUAkN2FnA _NCSG0NBHEeG5GNUAkN2FnA _NDV2wNBHEeG5GNUAkN2FnA _NDZhINBHEeG5GNUAkN2FnA _NCtkoNBHEeG5GNUAkN2FnA" generalizations="_cvfxINBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_a492EM4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NBEl4NBHEeG5GNUAkN2FnA" position="1005.0,713.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NBD-0tBHEeG5GNUAkN2FnA" label="+"/>
+    <attributes xmi:id="_NBD-09BHEeG5GNUAkN2FnA" name="process">
+      <modelElement href="wps_provenance.uml#_bnH8k84TEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="_NBD-1NBHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_Y7q3YM4dEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NBD-1dBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NBD-1tBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_NBD-19BHEeG5GNUAkN2FnA" name="ProcessMetadata">
+        <modelElement href="wps_provenance.uml#_a4riMs4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NBD-2NBHEeG5GNUAkN2FnA" defaultValue="Logger.getLogger(ProcessExecution.class)" name="logger" staticAttribute="true">
+      <modelElement href="wps_provenance.uml#_bnH8mM4TEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="_NDVPsNBHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_bnODMM4TEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="__WCCsNWrEeGcv9_cbh8UyQ" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_bnODMM4TEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NBD-2tBHEeG5GNUAkN2FnA" label="-"/>
+      <cardinality xmi:id="_NBD-29BHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_NBD-3NBHEeG5GNUAkN2FnA" name="Logger">
+        <modelElement href="wps_provenance.uml#_bgKY984TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NBD-3dBHEeG5GNUAkN2FnA" name="internalProcessSteps">
+      <modelElement href="wps_provenance.uml#_bnODMc4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NBD-3tBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NBD-39BHEeG5GNUAkN2FnA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_NBD-4NBHEeG5GNUAkN2FnA" name="ProcessStep">
+        <modelElement href="wps_provenance.uml#_a5QJ8M4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NBD-4dBHEeG5GNUAkN2FnA" name="executeRequest">
+      <modelElement href="wps_provenance.uml#_bnODP84TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NBD-4tBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NBD-49BHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_NBD-5NBHEeG5GNUAkN2FnA" name="ExecuteDocument">
+        <modelElement href="wps_provenance.uml#_bfx-c84TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NBD-5dBHEeG5GNUAkN2FnA" name="executeResponse">
+      <modelElement href="wps_provenance.uml#_bnUJ0M4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NBD-5tBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NBD-59BHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_NBD-6NBHEeG5GNUAkN2FnA" name="ExecuteResponse">
+        <modelElement href="wps_provenance.uml#_bgESVM4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NBD-6dBHEeG5GNUAkN2FnA" name="wPSOutput">
+      <modelElement href="wps_provenance.uml#_JASjUM4eEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NBD-6tBHEeG5GNUAkN2FnA" label="~"/>
+      <cardinality xmi:id="_NBD-69BHEeG5GNUAkN2FnA" label="*" max="-1"/>
+      <type xmi:id="_NBD-7NBHEeG5GNUAkN2FnA" name="WPSOutput">
+        <modelElement href="wps_provenance.uml#_a50xsM4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NBD-7dBHEeG5GNUAkN2FnA" name="wPSInput">
+      <modelElement href="wps_provenance.uml#_JASjVM4eEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NBD-7tBHEeG5GNUAkN2FnA" label="~"/>
+      <cardinality xmi:id="_NBD-79BHEeG5GNUAkN2FnA" label="*" max="-1"/>
+      <type xmi:id="_NBD-8NBHEeG5GNUAkN2FnA" name="WPSInput">
+        <modelElement href="wps_provenance.uml#_a5urEM4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NBD-8dBHEeG5GNUAkN2FnA" defaultValue="new ArrayList&lt;ProcessExecution>()" name="successorProcesses">
+      <modelElement href="wps_provenance.uml#_FqHRUNBFEeG5GNUAkN2FnA"/>
+      <visibility xmi:id="_NBD-8tBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NBD-89BHEeG5GNUAkN2FnA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_NBD-9NBHEeG5GNUAkN2FnA" name="ProcessExecution">
+        <modelElement href="wps_provenance.uml#_a492EM4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NBD-9dBHEeG5GNUAkN2FnA" comments="_NA94MNBHEeG5GNUAkN2FnA" targetConnectionVisual="_NA-fQNBHEeG5GNUAkN2FnA" name="getProvenance">
+      <modelElement href="wps_provenance.uml#_a5D8sM4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NBD-9tBHEeG5GNUAkN2FnA" label="+"/>
+      <outParameters xmi:id="_NBD-99BHEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_bj4bUM4TEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NBD--NBHEeG5GNUAkN2FnA" name="OPMGraph">
+          <modelElement href="wps_provenance.uml#_bfx-ec4TEeGq3d5-lbnbPg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NBD--dBHEeG5GNUAkN2FnA" name="mapExecute">
+      <modelElement href="wps_provenance.uml#_bj4bUc4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NBD--tBHEeG5GNUAkN2FnA" label="-"/>
+      <parameters xmi:id="_NBD--9BHEeG5GNUAkN2FnA" name="exec">
+        <modelElement href="wps_provenance.uml#_hqLAgM6JEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NBD-_NBHEeG5GNUAkN2FnA" name="Execute">
+          <modelElement href="wps_provenance.uml#_bgESUs4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NBD-_dBHEeG5GNUAkN2FnA" name="mapProcessDescription">
+      <modelElement href="wps_provenance.uml#_Y6B5MM6MEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NBD-_tBHEeG5GNUAkN2FnA" label="-"/>
+      <parameters xmi:id="_NBD-_9BHEeG5GNUAkN2FnA" name="pdt">
+        <modelElement href="wps_provenance.uml#_Y6B5Mc6MEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NBD_ANBHEeG5GNUAkN2FnA" name="ProcessDescriptionType">
+          <modelElement href="wps_provenance.uml#_biKkEs4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NBD_AdBHEeG5GNUAkN2FnA" name="addWPSInput">
+      <modelElement href="wps_provenance.uml#_bmRA8M4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NBD_AtBHEeG5GNUAkN2FnA" label="-"/>
+      <outParameters xmi:id="_NBD_A9BHEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_bmRA9M4TEeGq3d5-lbnbPg"/>
+      </outParameters>
+      <parameters xmi:id="_NBD_BNBHEeG5GNUAkN2FnA" name="wpsinput">
+        <modelElement href="wps_provenance.uml#_FliTUNBFEeG5GNUAkN2FnA"/>
+        <type xmi:id="_NBD_BdBHEeG5GNUAkN2FnA" name="WPSInput">
+          <modelElement href="wps_provenance.uml#_a5urEM4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NBD_BtBHEeG5GNUAkN2FnA" name="addWPSOutput">
+      <modelElement href="wps_provenance.uml#_FltScNBFEeG5GNUAkN2FnA"/>
+      <visibility xmi:id="_NBD_B9BHEeG5GNUAkN2FnA" label="-"/>
+      <parameters xmi:id="_NBD_CNBHEeG5GNUAkN2FnA" name="wpsoutput">
+        <modelElement href="wps_provenance.uml#_Flt5gNBFEeG5GNUAkN2FnA"/>
+        <type xmi:id="_NBD_CdBHEeG5GNUAkN2FnA" name="WPSOutput">
+          <modelElement href="wps_provenance.uml#_a50xsM4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NBD_CtBHEeG5GNUAkN2FnA" name="mapMetaData">
+      <modelElement href="wps_provenance.uml#_FlugkNBFEeG5GNUAkN2FnA"/>
+      <visibility xmi:id="_NBD_C9BHEeG5GNUAkN2FnA" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NBF0ANBHEeG5GNUAkN2FnA" name="ProcessingBackend" generalizations="_cvP5gNBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_a5cXMc4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NBZWANBHEeG5GNUAkN2FnA" position="1327.0,620.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NBF0AdBHEeG5GNUAkN2FnA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NBjuENBHEeG5GNUAkN2FnA" name="ProvenanceFactory" associationsIn="_NBakINBHEeG5GNUAkN2FnA" associationsOut="_NBakINBHEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_a5id0c4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NBjuJdBHEeG5GNUAkN2FnA" position="634.0,1195.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NBjuEdBHEeG5GNUAkN2FnA" label="+"/>
+    <attributes xmi:id="_NBjuEtBHEeG5GNUAkN2FnA" name="instance" staticAttribute="true">
+      <modelElement href="wps_provenance.uml#_k7VWcM5hEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="_NBjHAdBHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_k7VWcc5hEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="__VyyINWrEeGcv9_cbh8UyQ" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_k7VWcc5hEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NBjuFNBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NBjuFdBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_NBjuFtBHEeG5GNUAkN2FnA" name="ProvenanceFactory">
+        <modelElement href="wps_provenance.uml#_a5id0c4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NBjuF9BHEeG5GNUAkN2FnA" name="generateProcessRecord">
+      <modelElement href="wps_provenance.uml#_bj-h8M4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NBjuGNBHEeG5GNUAkN2FnA" label="+"/>
+      <outParameters xmi:id="_NBjuGdBHEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_bj-h884TEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NBjuGtBHEeG5GNUAkN2FnA" name="ProcessExecution">
+          <modelElement href="wps_provenance.uml#_a492EM4TEeGq3d5-lbnbPg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NBjuG9BHEeG5GNUAkN2FnA" name="executeRequest">
+        <modelElement href="wps_provenance.uml#_bj-h8c4TEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NBjuHNBHEeG5GNUAkN2FnA" name="InputStream">
+          <modelElement href="wps_provenance.uml#_bgWmNM4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_NBjuHdBHEeG5GNUAkN2FnA" name="serviceURL">
+        <modelElement href="wps_provenance.uml#_bj-h8s4TEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NBjuHtBHEeG5GNUAkN2FnA" name="URL">
+          <modelElement href="wps_provenance.uml#_bf4FGM4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NBjuH9BHEeG5GNUAkN2FnA" name="ProvenanceFactory">
+      <modelElement href="wps_provenance.uml#_k7MMgM5hEeGq3d5-lbnbPg"/>
+      <keywords xmi:id="_NBjuINBHEeG5GNUAkN2FnA" keyword="create"/>
+      <stereotypes xmi:id="_NBjuIdBHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_k7MMhM5hEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NBjuItBHEeG5GNUAkN2FnA" label="-"/>
+      <outParameters xmi:id="_NBjuI9BHEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_k7MMg85hEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NBjuJNBHEeG5GNUAkN2FnA" name="ProvenanceFactory">
+          <modelElement href="wps_provenance.uml#_a5id0c4TEeGq3d5-lbnbPg"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NB66ctBHEeG5GNUAkN2FnA" name="Service" associationsOut="_NBljQNBHEeG5GNUAkN2FnA _NDg14NBHEeG5GNUAkN2FnA" generalizations="_cvP5gdBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_a5okcM4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NB7hgNBHEeG5GNUAkN2FnA" position="1533.0,637.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NB66c9BHEeG5GNUAkN2FnA" label="+"/>
+    <attributes xmi:id="_NB66dNBHEeG5GNUAkN2FnA" defaultValue="&quot;WPS&quot;" name="name">
+      <modelElement href="wps_provenance.uml#_bnaQcM4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NB66ddBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NB66dtBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_NB66d9BHEeG5GNUAkN2FnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NB66eNBHEeG5GNUAkN2FnA" defaultValue="&quot;1.0.0&quot;" name="version">
+      <modelElement href="wps_provenance.uml#_bnaQcs4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NB66edBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NB66etBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_NB66e9BHEeG5GNUAkN2FnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NB66fNBHEeG5GNUAkN2FnA" name="hostURL">
+      <modelElement href="wps_provenance.uml#_bnaQdM4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NB66fdBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NB66ftBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_NB66f9BHEeG5GNUAkN2FnA" name="URL">
+        <modelElement href="wps_provenance.uml#_bf4FGM4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NB66gNBHEeG5GNUAkN2FnA" name="getProperties">
+      <modelElement href="wps_provenance.uml#_a5okcc4TEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="_NB66gdBHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_a5okcs4TEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_NB66gtBHEeG5GNUAkN2FnA" name="Annotations">
+        <modelElement href="wps_provenance.uml#_a5okc84TEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NB66g9BHEeG5GNUAkN2FnA" label="+"/>
+      <outParameters xmi:id="_NB66hNBHEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_bkEokM4TEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NB66hdBHEeG5GNUAkN2FnA" name="Properties">
+          <modelElement href="wps_provenance.uml#_bflxMM4TEeGq3d5-lbnbPg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NB66htBHEeG5GNUAkN2FnA" name="Service">
+      <modelElement href="wps_provenance.uml#_a5okdc4TEeGq3d5-lbnbPg"/>
+      <keywords xmi:id="_NB66h9BHEeG5GNUAkN2FnA" keyword="create"/>
+      <visibility xmi:id="_NB66iNBHEeG5GNUAkN2FnA" label="+"/>
+      <outParameters xmi:id="_NB66idBHEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_a5okec4TEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NB66itBHEeG5GNUAkN2FnA" name="Service">
+          <modelElement href="wps_provenance.uml#_a5okcM4TEeGq3d5-lbnbPg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NB66i9BHEeG5GNUAkN2FnA" name="hostURL">
+        <modelElement href="wps_provenance.uml#_9CFW0M4bEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NB66jNBHEeG5GNUAkN2FnA" name="URL">
+          <modelElement href="wps_provenance.uml#_bf4FGM4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NB66jdBHEeG5GNUAkN2FnA" name="setHostURL">
+      <modelElement href="wps_provenance.uml#_bkEokc4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NB66jtBHEeG5GNUAkN2FnA" label="+"/>
+      <parameters xmi:id="_NB66j9BHEeG5GNUAkN2FnA" name="url">
+        <modelElement href="wps_provenance.uml#_bkEoks4TEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NB66kNBHEeG5GNUAkN2FnA" name="URL">
+          <modelElement href="wps_provenance.uml#_bf4FGM4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NB66kdBHEeG5GNUAkN2FnA" name="setName">
+      <modelElement href="wps_provenance.uml#_FpCTQNBFEeG5GNUAkN2FnA"/>
+      <visibility xmi:id="_NB66ktBHEeG5GNUAkN2FnA" label="+"/>
+      <parameters xmi:id="_NB66k9BHEeG5GNUAkN2FnA" name="value">
+        <modelElement href="wps_provenance.uml#_FpC6UNBFEeG5GNUAkN2FnA"/>
+        <type xmi:id="_NB66lNBHEeG5GNUAkN2FnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NCQRotBHEeG5GNUAkN2FnA" name="WPSInput" associationsIn="_NB99wNBHEeG5GNUAkN2FnA" associationsOut="_ND5QYNBHEeG5GNUAkN2FnA" generalizations="_cu7wcNBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_a5urEM4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NCRfwNBHEeG5GNUAkN2FnA" position="58.0,741.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NCQRo9BHEeG5GNUAkN2FnA" label="+"/>
+    <attributes xmi:id="_NCQRpNBHEeG5GNUAkN2FnA" name="processRecord">
+      <modelElement href="wps_provenance.uml#_bnODPM4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NCQRpdBHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NCQRptBHEeG5GNUAkN2FnA" label="0..1" max="1"/>
+      <type xmi:id="_NCQ4sNBHEeG5GNUAkN2FnA" name="ProcessExecution">
+        <modelElement href="wps_provenance.uml#_a492EM4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NCQ4sdBHEeG5GNUAkN2FnA" defaultValue="Logger.getLogger(WPSInput.class)" name="logger" staticAttribute="true">
+      <modelElement href="wps_provenance.uml#_6w4qcM6CEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="_ND4pUNBHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_6w4qcs6CEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="__WPeENWrEeGcv9_cbh8UyQ" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_6w4qcs6CEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NCQ4s9BHEeG5GNUAkN2FnA" label="-"/>
+      <cardinality xmi:id="_NCQ4tNBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_NCQ4tdBHEeG5GNUAkN2FnA" name="Logger">
+        <modelElement href="wps_provenance.uml#_bgKY984TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NCQ4ttBHEeG5GNUAkN2FnA" name="assignProperties">
+      <modelElement href="wps_provenance.uml#_bkEok84TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NCQ4t9BHEeG5GNUAkN2FnA" label="+"/>
+      <parameters xmi:id="_NCQ4uNBHEeG5GNUAkN2FnA" name="input">
+        <modelElement href="wps_provenance.uml#_bkEolM4TEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NCQ4udBHEeG5GNUAkN2FnA" name="InputType">
+          <modelElement href="wps_provenance.uml#_bgESVs4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NCQ4utBHEeG5GNUAkN2FnA" name="enrichProperties">
+      <modelElement href="wps_provenance.uml#_ROVQcM6aEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NCQ4u9BHEeG5GNUAkN2FnA" label="+"/>
+      <parameters xmi:id="_NCQ4vNBHEeG5GNUAkN2FnA" name="idt">
+        <modelElement href="wps_provenance.uml#_ROVQcc6aEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NCQ4vdBHEeG5GNUAkN2FnA" name="InputDescriptionType">
+          <modelElement href="wps_provenance.uml#_biEddc4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NCQ4vtBHEeG5GNUAkN2FnA" name="assignDefaultValue">
+      <modelElement href="wps_provenance.uml#_ROV3gM6aEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NCQ4v9BHEeG5GNUAkN2FnA" label="+"/>
+      <parameters xmi:id="_NCQ4wNBHEeG5GNUAkN2FnA" name="idt">
+        <modelElement href="wps_provenance.uml#_ROV3gc6aEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NCQ4wdBHEeG5GNUAkN2FnA" name="InputDescriptionType">
+          <modelElement href="wps_provenance.uml#_biEddc4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NCQ4wtBHEeG5GNUAkN2FnA" name="mapComplexDataType">
+      <modelElement href="wps_provenance.uml#__6-8gM6dEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NCQ4w9BHEeG5GNUAkN2FnA" label="-"/>
+      <parameters xmi:id="_NCQ4xNBHEeG5GNUAkN2FnA" name="complex">
+        <modelElement href="wps_provenance.uml#__6-8gc6dEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NCQ4xdBHEeG5GNUAkN2FnA" name="ComplexDataType">
+          <modelElement href="wps_provenance.uml#_biEdc84TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NCQ4xtBHEeG5GNUAkN2FnA" name="mapLiteralDataType">
+      <modelElement href="wps_provenance.uml#_Jx4wMM6eEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NCQ4x9BHEeG5GNUAkN2FnA" label="-"/>
+      <parameters xmi:id="_NCQ4yNBHEeG5GNUAkN2FnA" name="ldt">
+        <modelElement href="wps_provenance.uml#_Jx4wMc6eEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NCQ4ydBHEeG5GNUAkN2FnA" name="LiteralDataType">
+          <modelElement href="wps_provenance.uml#__AybkM6REeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NCQ4ytBHEeG5GNUAkN2FnA" name="mapInputReferenceType">
+      <modelElement href="wps_provenance.uml#_OF0YoM6gEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NCQ4y9BHEeG5GNUAkN2FnA" label="-"/>
+      <parameters xmi:id="_NCQ4zNBHEeG5GNUAkN2FnA" name="ref">
+        <modelElement href="wps_provenance.uml#_OF0Yoc6gEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NCQ4zdBHEeG5GNUAkN2FnA" name="InputReferenceType">
+          <modelElement href="wps_provenance.uml#_biEdd84TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NCsWgNBHEeG5GNUAkN2FnA" name="WPSOutput" associationsIn="_NCSG0NBHEeG5GNUAkN2FnA" associationsOut="_NEg7cNBHEeG5GNUAkN2FnA" generalizations="_cu8XgNBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_a50xsM4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_NCs9kNBHEeG5GNUAkN2FnA" position="427.0,779.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NCsWgdBHEeG5GNUAkN2FnA" label="+"/>
+    <attributes xmi:id="_NCsWgtBHEeG5GNUAkN2FnA" name="processRecord">
+      <modelElement href="wps_provenance.uml#_bnODNs4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NCsWg9BHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_NCsWhNBHEeG5GNUAkN2FnA" label="0..1" max="1"/>
+      <type xmi:id="_NCsWhdBHEeG5GNUAkN2FnA" name="ProcessExecution">
+        <modelElement href="wps_provenance.uml#_a492EM4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NCsWhtBHEeG5GNUAkN2FnA" defaultValue="Logger.getLogger(WPSOutput.class)" name="logger" staticAttribute="true">
+      <modelElement href="wps_provenance.uml#_Or0qsM6KEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="_NEgUYNBHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_Or0qss6KEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="__WTIcNWrEeGcv9_cbh8UyQ" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_Or0qss6KEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_NCsWiNBHEeG5GNUAkN2FnA" label="-"/>
+      <cardinality xmi:id="_NCsWidBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_NCsWitBHEeG5GNUAkN2FnA" name="Logger">
+        <modelElement href="wps_provenance.uml#_bgKY984TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NCsWi9BHEeG5GNUAkN2FnA" name="assignProperties">
+      <modelElement href="wps_provenance.uml#_-Sux0M6IEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NCsWjNBHEeG5GNUAkN2FnA" label="+"/>
+      <parameters xmi:id="_NCsWjdBHEeG5GNUAkN2FnA" name="odef">
+        <modelElement href="wps_provenance.uml#_-S04cM6IEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NCsWjtBHEeG5GNUAkN2FnA" name="OutputDefinitionType">
+          <modelElement href="wps_provenance.uml#_bgKY8c4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NCsWj9BHEeG5GNUAkN2FnA" name="enrichProperties">
+      <modelElement href="wps_provenance.uml#_Z2DJoM6ZEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_NCsWkNBHEeG5GNUAkN2FnA" label="+"/>
+      <parameters xmi:id="_NCsWkdBHEeG5GNUAkN2FnA" name="odt">
+        <modelElement href="wps_provenance.uml#_Z2DwsM6ZEeGq3d5-lbnbPg"/>
+        <type xmi:id="_NCsWktBHEeG5GNUAkN2FnA" name="OutputDescriptionType">
+          <modelElement href="wps_provenance.uml#_biKkEM4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_ND0X4NBHEeG5GNUAkN2FnA" comments="_NDrN8NBHEeG5GNUAkN2FnA" targetConnectionVisual="_NDuRQNBHEeG5GNUAkN2FnA" name="ProvPropertyType">
+    <modelElement href="wps_provenance.uml#_uXYbUM57EeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_ND1mANBHEeG5GNUAkN2FnA" position="18.0,1102.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ND0X4dBHEeG5GNUAkN2FnA" label="+"/>
+    <attributes xmi:id="_ND0X4tBHEeG5GNUAkN2FnA" name="property">
+      <modelElement href="wps_provenance.uml#_GU1oEM5-EeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_ND0X49BHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_ND0X5NBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_ND0X5dBHEeG5GNUAkN2FnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ND0X5tBHEeG5GNUAkN2FnA" name="label">
+      <modelElement href="wps_provenance.uml#_GU7usc5-EeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_ND0X59BHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_ND0X6NBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_ND0X6dBHEeG5GNUAkN2FnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ND0X6tBHEeG5GNUAkN2FnA" name="equalProperties">
+      <modelElement href="wps_provenance.uml#_cEnHMM5-EeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_ND0X69BHEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_ND0X7NBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_ND0X7dBHEeG5GNUAkN2FnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ND0X7tBHEeG5GNUAkN2FnA" defaultValue="UUID.randomUUID().toString()" name="id">
+      <modelElement href="wps_provenance.uml#_FqOmENBFEeG5GNUAkN2FnA"/>
+      <stereotypes xmi:id="_ND0X79BHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_FqP0MNBFEeG5GNUAkN2FnA"/>
+      </stereotypes>
+      <visibility xmi:id="_ND0X8NBHEeG5GNUAkN2FnA" label="-"/>
+      <cardinality xmi:id="_ND0X8dBHEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_ND0X8tBHEeG5GNUAkN2FnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ND0X89BHEeG5GNUAkN2FnA" name="ProvPropertyType">
+      <modelElement href="wps_provenance.uml#_YFsQAM59EeGq3d5-lbnbPg"/>
+      <keywords xmi:id="_ND0X9NBHEeG5GNUAkN2FnA" keyword="create"/>
+      <visibility xmi:id="_ND0X9dBHEeG5GNUAkN2FnA" label="-"/>
+      <outParameters xmi:id="_ND0X9tBHEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_YFsQBc59EeGq3d5-lbnbPg"/>
+        <type xmi:id="_ND0X99BHEeG5GNUAkN2FnA" name="ProvPropertyType">
+          <modelElement href="wps_provenance.uml#_uXYbUM57EeGq3d5-lbnbPg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ND0X-NBHEeG5GNUAkN2FnA" name="property">
+        <modelElement href="wps_provenance.uml#_YFsQAc59EeGq3d5-lbnbPg"/>
+        <type xmi:id="_ND0X-dBHEeG5GNUAkN2FnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ND0X-tBHEeG5GNUAkN2FnA" name="label">
+        <modelElement href="wps_provenance.uml#_YFsQAs59EeGq3d5-lbnbPg"/>
+        <type xmi:id="_ND0X-9BHEeG5GNUAkN2FnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ND0X_NBHEeG5GNUAkN2FnA" name="ProvPropertyType">
+      <modelElement href="wps_provenance.uml#_vhZFcM59EeGq3d5-lbnbPg"/>
+      <keywords xmi:id="_ND0X_dBHEeG5GNUAkN2FnA" keyword="create"/>
+      <visibility xmi:id="_ND0X_tBHEeG5GNUAkN2FnA" label="-"/>
+      <outParameters xmi:id="_ND0X_9BHEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_vhfMEs59EeGq3d5-lbnbPg"/>
+        <type xmi:id="_ND0YANBHEeG5GNUAkN2FnA" name="ProvPropertyType">
+          <modelElement href="wps_provenance.uml#_uXYbUM57EeGq3d5-lbnbPg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ND0YAdBHEeG5GNUAkN2FnA" name="property">
+        <modelElement href="wps_provenance.uml#_vhZFcc59EeGq3d5-lbnbPg"/>
+        <type xmi:id="_ND0YAtBHEeG5GNUAkN2FnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ND0YA9BHEeG5GNUAkN2FnA" name="label">
+        <modelElement href="wps_provenance.uml#_vhZFcs59EeGq3d5-lbnbPg"/>
+        <type xmi:id="_ND0YBNBHEeG5GNUAkN2FnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ND0YBdBHEeG5GNUAkN2FnA" name="equalProperties">
+        <modelElement href="wps_provenance.uml#_vhZFc859EeGq3d5-lbnbPg"/>
+        <type xmi:id="_ND0YBtBHEeG5GNUAkN2FnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ND0YB9BHEeG5GNUAkN2FnA" name="toString">
+      <modelElement href="wps_provenance.uml#_GUjUMM5-EeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="_ND0YCNBHEeG5GNUAkN2FnA" name="Annotations">
+        <modelElement href="wps_provenance.uml#_GUjUMc5-EeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ND0YCdBHEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_GUpa0M5-EeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_ND0YCtBHEeG5GNUAkN2FnA" label="+"/>
+      <outParameters xmi:id="_ND0YC9BHEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_GUvhcM5-EeGq3d5-lbnbPg"/>
+        <type xmi:id="_ND0YDNBHEeG5GNUAkN2FnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ND0YDdBHEeG5GNUAkN2FnA" name="getType" staticOperation="true">
+      <modelElement href="wps_provenance.uml#_V0o2kM6BEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_ND0YDtBHEeG5GNUAkN2FnA" label="+"/>
+      <outParameters xmi:id="_ND0YD9BHEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_V0o2ks6BEeGq3d5-lbnbPg"/>
+        <type xmi:id="_ND0YENBHEeG5GNUAkN2FnA" name="ProvPropertyType">
+          <modelElement href="wps_provenance.uml#_uXYbUM57EeGq3d5-lbnbPg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ND0YEdBHEeG5GNUAkN2FnA" name="key">
+        <modelElement href="wps_provenance.uml#_V0o2kc6BEeGq3d5-lbnbPg"/>
+        <type xmi:id="_ND0YEtBHEeG5GNUAkN2FnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <literals xmi:id="_ND0YE9BHEeG5GNUAkN2FnA" name="MIMETYPE">
+      <modelElement href="wps_provenance.uml#_YFmJYM59EeGq3d5-lbnbPg"/>
+    </literals>
+    <literals xmi:id="_ND0YFNBHEeG5GNUAkN2FnA" name="LITERALDATATYPE">
+      <modelElement href="wps_provenance.uml#_uTY_QM6TEeGq3d5-lbnbPg"/>
+    </literals>
+    <literals xmi:id="_ND0YFdBHEeG5GNUAkN2FnA" name="SCHEMA">
+      <modelElement href="wps_provenance.uml#_NhopIM6CEeGq3d5-lbnbPg"/>
+    </literals>
+    <literals xmi:id="_ND0YFtBHEeG5GNUAkN2FnA" name="ENCODING">
+      <modelElement href="wps_provenance.uml#_YFmJYs59EeGq3d5-lbnbPg"/>
+    </literals>
+    <literals xmi:id="_ND0YF9BHEeG5GNUAkN2FnA" name="HREF">
+      <modelElement href="wps_provenance.uml#_YFmJZM59EeGq3d5-lbnbPg"/>
+    </literals>
+    <literals xmi:id="_ND0-8NBHEeG5GNUAkN2FnA" name="STARTTIME">
+      <modelElement href="wps_provenance.uml#_YFmJZs59EeGq3d5-lbnbPg"/>
+    </literals>
+    <literals xmi:id="_ND0-8dBHEeG5GNUAkN2FnA" name="ENDTIME">
+      <modelElement href="wps_provenance.uml#_YFmJaM59EeGq3d5-lbnbPg"/>
+    </literals>
+    <literals xmi:id="_ND0-8tBHEeG5GNUAkN2FnA" name="ABSTRACT">
+      <modelElement href="wps_provenance.uml#_VuqCAM6PEeGq3d5-lbnbPg"/>
+    </literals>
+    <literals xmi:id="_ND0-89BHEeG5GNUAkN2FnA" name="TITLE">
+      <modelElement href="wps_provenance.uml#_D8b1MM6dEeGq3d5-lbnbPg"/>
+    </literals>
+    <literals xmi:id="_ND0-9NBHEeG5GNUAkN2FnA" name="CREATOR">
+      <modelElement href="wps_provenance.uml#_VurQIM6PEeGq3d5-lbnbPg"/>
+    </literals>
+    <literals xmi:id="_ND0-9dBHEeG5GNUAkN2FnA" name="AVALUE">
+      <modelElement href="wps_provenance.uml#_kuJ_0M6SEeGq3d5-lbnbPg"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_cufEgNBIEeG5GNUAkN2FnA" item="_cutG8NBIEeG5GNUAkN2FnA" sourceConnectionVisual="_cugSoNBIEeG5GNUAkN2FnA" text="&#xD;&#xA;@author Matthias Hinz&#xD;&#xA; *">
+    <modelElement href="wps_provenance.uml#_FqwxkNBFEeG5GNUAkN2FnA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_cuj9ANBIEeG5GNUAkN2FnA" item="_cutG_9BIEeG5GNUAkN2FnA" sourceConnectionVisual="_cukkENBIEeG5GNUAkN2FnA" text="&#xD;&#xA;     * @param type&#xD;&#xA;     *            Predefined property type&#xD;&#xA;     * @param value&#xD;&#xA;     *            The properties value">
+    <modelElement href="wps_provenance.uml#_YCXUkM6QEeGq3d5-lbnbPg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_cumZQNBIEeG5GNUAkN2FnA" item="_cutHBdBIEeG5GNUAkN2FnA" sourceConnectionVisual="_cunAUNBIEeG5GNUAkN2FnA" text="&#xD;&#xA;     * @param type&#xD;&#xA;     *            The type of property, e.g. http://example.org/property&#xD;&#xA;     * @param value&#xD;&#xA;     *            The properties value">
+    <modelElement href="wps_provenance.uml#_YCX7oM6QEeGq3d5-lbnbPg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_cutG8NBIEeG5GNUAkN2FnA" comments="_cufEgNBIEeG5GNUAkN2FnA" targetConnectionVisual="_cugSoNBIEeG5GNUAkN2FnA" name="AbstractProvenanceEntity" abstractClass="true" associationsOut="_NDN68NBHEeG5GNUAkN2FnA" generalizations="_cv3kkNBIEeG5GNUAkN2FnA" subclassedBy="_cux_cNBIEeG5GNUAkN2FnA _cvFhcNBIEeG5GNUAkN2FnA _cvejANBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_a4ZOUM4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_cuuVENBIEeG5GNUAkN2FnA" position="1007.0,140.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_cutG8dBIEeG5GNUAkN2FnA" label="+"/>
+    <attributes xmi:id="_cutG8tBIEeG5GNUAkN2FnA" defaultValue="UUID.randomUUID().toString().substring(0, 6)" name="id">
+      <modelElement href="wps_provenance.uml#_bnB18M4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cutG89BIEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_cutG9NBIEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_cutG9dBIEeG5GNUAkN2FnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_cutG9tBIEeG5GNUAkN2FnA" defaultValue="new Properties()" name="properties">
+      <modelElement href="wps_provenance.uml#_bnB18s4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cutG99BIEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_cutG-NBIEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_cutG-dBIEeG5GNUAkN2FnA" name="Properties">
+        <modelElement href="wps_provenance.uml#_bflxMM4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_cutG-tBIEeG5GNUAkN2FnA" name="generalId">
+      <modelElement href="wps_provenance.uml#_bqdkcs4TEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="_cutG-9BIEeG5GNUAkN2FnA" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_FoVIoNBFEeG5GNUAkN2FnA"/>
+      </stereotypes>
+      <visibility xmi:id="_cutG_NBIEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_cutG_dBIEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_cutG_tBIEeG5GNUAkN2FnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_cutG_9BIEeG5GNUAkN2FnA" comments="_cuj9ANBIEeG5GNUAkN2FnA" targetConnectionVisual="_cukkENBIEeG5GNUAkN2FnA" name="setProperty">
+      <modelElement href="wps_provenance.uml#_pEbvcM6FEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cutHANBIEeG5GNUAkN2FnA" label="+"/>
+      <parameters xmi:id="_cutHAdBIEeG5GNUAkN2FnA" name="type">
+        <modelElement href="wps_provenance.uml#_pEbvcc6FEeGq3d5-lbnbPg"/>
+        <type xmi:id="_cutHAtBIEeG5GNUAkN2FnA" name="ProvPropertyType">
+          <modelElement href="wps_provenance.uml#_uXYbUM57EeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_cutHA9BIEeG5GNUAkN2FnA" name="value">
+        <modelElement href="wps_provenance.uml#_YCQm4M6QEeGq3d5-lbnbPg"/>
+        <type xmi:id="_cutHBNBIEeG5GNUAkN2FnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_cutHBdBIEeG5GNUAkN2FnA" comments="_cumZQNBIEeG5GNUAkN2FnA" targetConnectionVisual="_cunAUNBIEeG5GNUAkN2FnA" name="setProperty">
+      <modelElement href="wps_provenance.uml#_YCPYwM6QEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cutHBtBIEeG5GNUAkN2FnA" label="+"/>
+      <parameters xmi:id="_cutHB9BIEeG5GNUAkN2FnA" name="type">
+        <modelElement href="wps_provenance.uml#_YCPYwc6QEeGq3d5-lbnbPg"/>
+        <type xmi:id="_cutHCNBIEeG5GNUAkN2FnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_cutHCdBIEeG5GNUAkN2FnA" name="value">
+        <modelElement href="wps_provenance.uml#_pEbvcs6FEeGq3d5-lbnbPg"/>
+        <type xmi:id="_cutHCtBIEeG5GNUAkN2FnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_cutHC9BIEeG5GNUAkN2FnA" name="mapDescriptionType">
+      <modelElement href="wps_provenance.uml#_lmYAQM6dEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cutHDNBIEeG5GNUAkN2FnA" label="#"/>
+      <parameters xmi:id="_cutHDdBIEeG5GNUAkN2FnA" name="pdt">
+        <modelElement href="wps_provenance.uml#_lmYnUM6dEeGq3d5-lbnbPg"/>
+        <type xmi:id="_cutHDtBIEeG5GNUAkN2FnA" name="DescriptionType">
+          <modelElement href="wps_provenance.uml#_LZU6AM6cEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_cvDFMtBIEeG5GNUAkN2FnA" name="ProcessingArtifact" associationsIn="_NEo3QNBHEeG5GNUAkN2FnA _NDb9YNBHEeG5GNUAkN2FnA _NDdykNBHEeG5GNUAkN2FnA" associationsOut="_NEo3QNBHEeG5GNUAkN2FnA _NEj-wNBHEeG5GNUAkN2FnA" generalizations="_cux_cNBIEeG5GNUAkN2FnA" subclassedBy="_cu7wcNBIEeG5GNUAkN2FnA _cu8XgNBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_a5cXMM4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_cvETUNBIEeG5GNUAkN2FnA" position="212.0,461.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_cvDFM9BIEeG5GNUAkN2FnA" label="+"/>
+    <attributes xmi:id="_cvDFNNBIEeG5GNUAkN2FnA" defaultValue="Logger.getLogger(ProcessingArtifact.class)" name="logger" staticAttribute="true">
+      <modelElement href="wps_provenance.uml#_Sto-sM6oEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="__WZ2INWrEeGcv9_cbh8UyQ" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_StqM0M6oEeGq3d5-lbnbPg"/>
+      </stereotypes>
+      <visibility xmi:id="_cvDFNdBIEeG5GNUAkN2FnA" label="-"/>
+      <cardinality xmi:id="_cvDFNtBIEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_cvDFN9BIEeG5GNUAkN2FnA" name="Logger">
+        <modelElement href="wps_provenance.uml#_bgKY984TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_cvDFONBIEeG5GNUAkN2FnA" defaultValue="new ArrayList&lt;ProcessingArtifact>()" name="wasDerivedByArtifacts">
+      <modelElement href="wps_provenance.uml#_FqK7sNBFEeG5GNUAkN2FnA"/>
+      <stereotypes xmi:id="__WcSYNWrEeGcv9_cbh8UyQ" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_FqMw4NBFEeG5GNUAkN2FnA"/>
+      </stereotypes>
+      <visibility xmi:id="_cvDFOdBIEeG5GNUAkN2FnA" label="-"/>
+      <cardinality xmi:id="_cvDFOtBIEeG5GNUAkN2FnA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_cvDFO9BIEeG5GNUAkN2FnA" name="ProcessingArtifact">
+        <modelElement href="wps_provenance.uml#_a5cXMM4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_cvDFPNBIEeG5GNUAkN2FnA" name="mapSupportedComplexDataType">
+      <modelElement href="wps_provenance.uml#_StfNsM6oEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cvDFPdBIEeG5GNUAkN2FnA" label="#"/>
+      <parameters xmi:id="_cvDFPtBIEeG5GNUAkN2FnA" name="complex">
+        <modelElement href="wps_provenance.uml#_Stf0wM6oEeGq3d5-lbnbPg"/>
+        <type xmi:id="_cvDFP9BIEeG5GNUAkN2FnA" name="SupportedComplexDataType">
+          <modelElement href="wps_provenance.uml#_69PTUM6hEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_cvDFQNBIEeG5GNUAkN2FnA" name="tryMatchFormatToProperties">
+      <modelElement href="wps_provenance.uml#_Stgb0M6oEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cvDFQdBIEeG5GNUAkN2FnA" label="#"/>
+      <outParameters xmi:id="_cvDFQtBIEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_Stl7YM6oEeGq3d5-lbnbPg"/>
+        <type xmi:id="_cvDFQ9BIEeG5GNUAkN2FnA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_cvDFRNBIEeG5GNUAkN2FnA" name="format">
+        <modelElement href="wps_provenance.uml#_Stgb0c6oEeGq3d5-lbnbPg"/>
+        <type xmi:id="_cvDFRdBIEeG5GNUAkN2FnA" name="ComplexDataDescriptionType">
+          <modelElement href="wps_provenance.uml#_UK-KQM6mEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_cvDsQNBIEeG5GNUAkN2FnA" name="setDerivedByArtifacts">
+      <modelElement href="wps_provenance.uml#_bmXHkc4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cvDsQdBIEeG5GNUAkN2FnA" label="+"/>
+      <parameters xmi:id="_cvDsQtBIEeG5GNUAkN2FnA" name="derivedByArtifacts">
+        <modelElement href="wps_provenance.uml#_FmptoNBFEeG5GNUAkN2FnA"/>
+        <type xmi:id="_cvDsQ9BIEeG5GNUAkN2FnA" name="List">
+          <modelElement href="wps_provenance.uml#_bgESUM4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_cvDsRNBIEeG5GNUAkN2FnA" name="getDerivedByArtifacts">
+      <modelElement href="wps_provenance.uml#_FmvNMNBFEeG5GNUAkN2FnA"/>
+      <visibility xmi:id="_cvDsRdBIEeG5GNUAkN2FnA" label="+"/>
+      <outParameters xmi:id="_cvDsRtBIEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_Fmv0QNBFEeG5GNUAkN2FnA"/>
+        <type xmi:id="_cvDsR9BIEeG5GNUAkN2FnA" name="ProcessingArtifact">
+          <modelElement href="wps_provenance.uml#_a5cXMM4TEeGq3d5-lbnbPg"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_cvVZENBIEeG5GNUAkN2FnA" name="ProcessingController" associationsOut="_cvXOQNBIEeG5GNUAkN2FnA" generalizations="_cvFhcNBIEeG5GNUAkN2FnA" subclassedBy="_cvPScNBIEeG5GNUAkN2FnA _cvPScdBIEeG5GNUAkN2FnA _cvP5gNBIEeG5GNUAkN2FnA _cvP5gdBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_a5cXMs4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_cvWAIdBIEeG5GNUAkN2FnA" position="1544.0,516.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_cvWAINBIEeG5GNUAkN2FnA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_cv1IUtBIEeG5GNUAkN2FnA" name="ProcessStep" associationsIn="_cvXOQNBIEeG5GNUAkN2FnA _NDZhINBHEeG5GNUAkN2FnA" associationsOut="_NDb9YNBHEeG5GNUAkN2FnA _NDdykNBHEeG5GNUAkN2FnA" generalizations="_cvejANBIEeG5GNUAkN2FnA" subclassedBy="_cvfxINBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_a5QJ8M4TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_cv2WcNBIEeG5GNUAkN2FnA" position="1050.0,461.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_cv1IU9BIEeG5GNUAkN2FnA" label="+"/>
+    <attributes xmi:id="_cv1IVNBIEeG5GNUAkN2FnA" name="processingController">
+      <modelElement href="wps_provenance.uml#_bnUJ0c4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cv1IVdBIEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_cv1IVtBIEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_cv1IV9BIEeG5GNUAkN2FnA" name="ProcessingController">
+        <modelElement href="wps_provenance.uml#_a5cXMs4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_cv1IWNBIEeG5GNUAkN2FnA" name="startTime">
+      <modelElement href="wps_provenance.uml#_bnUJ1s4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cv1IWdBIEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_cv1IWtBIEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_cv1IW9BIEeG5GNUAkN2FnA" name="Date">
+        <modelElement href="wps_provenance.uml#_bgQfkc4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_cv1IXNBIEeG5GNUAkN2FnA" name="endTime">
+      <modelElement href="wps_provenance.uml#_bnUJ184TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cv1IXdBIEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_cv1IXtBIEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_cv1IX9BIEeG5GNUAkN2FnA" name="Date">
+        <modelElement href="wps_provenance.uml#_bgQfkc4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_cv1IYNBIEeG5GNUAkN2FnA" name="input">
+      <modelElement href="wps_provenance.uml#_bnUJ2M4TEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="__WHiQNWrEeGcv9_cbh8UyQ" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_FocdYNBFEeG5GNUAkN2FnA"/>
+      </stereotypes>
+      <visibility xmi:id="_cv1IYdBIEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_cv1IYtBIEeG5GNUAkN2FnA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_cv1IY9BIEeG5GNUAkN2FnA" name="ProcessingArtifact">
+        <modelElement href="wps_provenance.uml#_a5cXMM4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_cv1IZNBIEeG5GNUAkN2FnA" name="output">
+      <modelElement href="wps_provenance.uml#_bnUJ2s4TEeGq3d5-lbnbPg"/>
+      <stereotypes xmi:id="__WLMoNWrEeGcv9_cbh8UyQ" name="LegacyStyledElement">
+        <modelElement href="wps_provenance.uml#_Foe5oNBFEeG5GNUAkN2FnA"/>
+      </stereotypes>
+      <visibility xmi:id="_cv1IZdBIEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_cv1IZtBIEeG5GNUAkN2FnA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_cv1IZ9BIEeG5GNUAkN2FnA" name="ProcessingArtifact">
+        <modelElement href="wps_provenance.uml#_a5cXMM4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_cv1IaNBIEeG5GNUAkN2FnA" name="setStartTime">
+      <modelElement href="wps_provenance.uml#_R8IMkM6EEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cv1IadBIEeG5GNUAkN2FnA" label="+"/>
+      <parameters xmi:id="_cv1IatBIEeG5GNUAkN2FnA" name="value">
+        <modelElement href="wps_provenance.uml#_R8OTMM6EEeGq3d5-lbnbPg"/>
+        <type xmi:id="_cv1Ia9BIEeG5GNUAkN2FnA" name="Date">
+          <modelElement href="wps_provenance.uml#_bgQfkc4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_cv1IbNBIEeG5GNUAkN2FnA" name="setEndTime">
+      <modelElement href="wps_provenance.uml#_R8OTMc6EEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cv1IbdBIEeG5GNUAkN2FnA" label="+"/>
+      <parameters xmi:id="_cv1IbtBIEeG5GNUAkN2FnA" name="value">
+        <modelElement href="wps_provenance.uml#_R8OTMs6EEeGq3d5-lbnbPg"/>
+        <type xmi:id="_cv1Ib9BIEeG5GNUAkN2FnA" name="Date">
+          <modelElement href="wps_provenance.uml#_bgQfkc4TEeGq3d5-lbnbPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_cv1IcNBIEeG5GNUAkN2FnA" name="isSetProcessingController">
+      <modelElement href="wps_provenance.uml#_Fmhx0NBFEeG5GNUAkN2FnA"/>
+      <visibility xmi:id="_cv1IcdBIEeG5GNUAkN2FnA" label="+"/>
+      <outParameters xmi:id="_cv1IctBIEeG5GNUAkN2FnA">
+        <modelElement href="wps_provenance.uml#_Fo5wYNBFEeG5GNUAkN2FnA"/>
+        <type xmi:id="_cv1Ic9BIEeG5GNUAkN2FnA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_cwLGkNBIEeG5GNUAkN2FnA" name="ProvenanceEntity" associationsIn="_NDMFwNBHEeG5GNUAkN2FnA" subclassedBy="_cv3kkNBIEeG5GNUAkN2FnA">
+    <modelElement href="wps_provenance.uml#_a5cXM84TEeGq3d5-lbnbPg"/>
+    <visualProperties xmi:id="_cwLGmtBIEeG5GNUAkN2FnA" position="1094.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_cwLGkdBIEeG5GNUAkN2FnA" label="+"/>
+    <attributes xmi:id="_cwLGktBIEeG5GNUAkN2FnA" name="id">
+      <modelElement href="wps_provenance.uml#_a5cXNM4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cwLGk9BIEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_cwLGlNBIEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_cwLGldBIEeG5GNUAkN2FnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_cwLGltBIEeG5GNUAkN2FnA" name="properties">
+      <modelElement href="wps_provenance.uml#_a5id0M4TEeGq3d5-lbnbPg"/>
+      <visibility xmi:id="_cwLGl9BIEeG5GNUAkN2FnA" label="+"/>
+      <cardinality xmi:id="_cwLGmNBIEeG5GNUAkN2FnA" label="1" max="1" min="1"/>
+      <type xmi:id="_cwLGmdBIEeG5GNUAkN2FnA" name="Properties">
+        <modelElement href="wps_provenance.uml#_bflxMM4TEeGq3d5-lbnbPg"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
